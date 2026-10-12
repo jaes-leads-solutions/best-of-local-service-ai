@@ -182,7 +182,7 @@ _Chat widgets, shared inboxes, and lead-capture bots for your website, SMS, and 
 
 _Glue tools together: missed-call text-back, review requests, lead routing._
 
-<details><summary><b><a href="https://n8n.io">n8n</a></b> (🥇14 · 📈) - Fair-code workflow automation platform with native AI capabilities. Combine.. <code>❗Unlicensed</code> <code>self-hosted</code> <code>no-code</code> <code>🔒 source-available</code></summary>
+<details><summary><b><a href="https://n8n.io">n8n</a></b> (🥇14) - Fair-code workflow automation platform with native AI capabilities. Combine.. <code>❗Unlicensed</code> <code>self-hosted</code> <code>no-code</code> <code>🔒 source-available</code></summary>
 
 - [GitHub]() (👨‍💻 810 · 📦 1.2K):
 
@@ -314,7 +314,7 @@ _Quotes, invoices, payments, and job dispatch._
 
 _Rank tracking, technical audits, and Google Maps/review research._
 
-<details><summary><b><a href="https://developer.chrome.com/docs/lighthouse/overview/">Lighthouse</a></b> (🥇17 · 📈) - Automated auditing, performance metrics, and best practices for the web. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://developer.chrome.com/docs/lighthouse/overview/">Lighthouse</a></b> (🥇17) - Automated auditing, performance metrics, and best practices for the web. <code>❗Unlicensed</code></summary>
 
 - [GitHub]() (👨‍💻 390 · 📦 39K):
 
@@ -326,7 +326,7 @@ _Rank tracking, technical audits, and Google Maps/review research._
 	npm install lighthouse
 	```
 </details>
-<details><summary><b><a href="https://unlighthouse.dev">Unlighthouse</a></b> (🥈11 · 📈) - Run Google Lighthouse on your entire site. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://unlighthouse.dev">Unlighthouse</a></b> (🥈11) - Run Google Lighthouse on your entire site. <code>❗Unlicensed</code></summary>
 
 - [GitHub]() (👨‍💻 30 · 📦 370):
 
@@ -378,7 +378,7 @@ _Rank tracking, technical audits, and Google Maps/review research._
 
 _Measure traffic and conversions, and turn recorded calls into text and insights._
 
-<details><summary><b><a href="https://github.com/SYSTRAN/faster-whisper">faster-whisper</a></b> (🥇15 · 📈) - Faster Whisper transcription with CTranslate2. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/SYSTRAN/faster-whisper">faster-whisper</a></b> (🥇15) - Faster Whisper transcription with CTranslate2. <code>❗Unlicensed</code></summary>
 
 - [GitHub]() (👨‍💻 51 · 📦 14K):
 
@@ -390,7 +390,7 @@ _Measure traffic and conversions, and turn recorded calls into text and insights
 	pip install faster-whisper
 	```
 </details>
-<details><summary><b><a href="https://github.com/openai/whisper">Whisper</a></b> (🥈11 · 📈) - Robust speech recognition via large-scale weak supervision. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/openai/whisper">Whisper</a></b> (🥈11) - Robust speech recognition via large-scale weak supervision. <code>❗Unlicensed</code></summary>
 
 - [GitHub]() (👨‍💻 84 · 📦 24):
 
