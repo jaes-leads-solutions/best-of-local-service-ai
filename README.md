@@ -15,7 +15,7 @@
     <a href="https://github.com/jaes-leads-solutions/best-of-local-service-ai/releases" title="Best-of Updates"><img src="https://img.shields.io/github/release-date/jaes-leads-solutions/best-of-local-service-ai?color=green&label=updated"></a>
 </p>
 
-This curated list contains 40 awesome open-source projects with a total of 0 stars grouped into 8 categories. All projects are ranked by a project-quality score, which is calculated based on various metrics automatically collected from GitHub and different package managers. If you like to add or update projects, feel free to open an [issue](https://github.com/jaes-leads-solutions/best-of-local-service-ai/issues/new/choose), submit a [pull request](https://github.com/jaes-leads-solutions/best-of-local-service-ai/pulls), or directly edit the [projects.yaml](https://github.com/jaes-leads-solutions/best-of-local-service-ai/edit/main/projects.yaml). Contributions are very welcome!
+This curated list contains 40 awesome open-source projects with a total of 1.1M stars grouped into 8 categories. All projects are ranked by a project-quality score, which is calculated based on various metrics automatically collected from GitHub and different package managers. If you like to add or update projects, feel free to open an [issue](https://github.com/jaes-leads-solutions/best-of-local-service-ai/issues/new/choose), submit a [pull request](https://github.com/jaes-leads-solutions/best-of-local-service-ai/pulls), or directly edit the [projects.yaml](https://github.com/jaes-leads-solutions/best-of-local-service-ai/edit/main/projects.yaml). Contributions are very welcome!
 
 > 🧙‍♂️  Discover other [best-of lists](https://best-of.org) or [create your own](https://github.com/best-of-lists/best-of/blob/main/create-best-of-list.md).
 
@@ -54,21 +54,9 @@ This curated list contains 40 awesome open-source projects with a total of 0 sta
 
 _Answer calls, qualify leads, and book jobs 24/7 with voice AI._
 
-<details><summary><b><a href="https://docs.livekit.io/agents">LiveKit Agents</a></b> (🥇10) - A framework for building realtime voice AI agents. <code>❗Unlicensed</code> <code>📞 phone</code></summary>
+<details><summary><b><a href="https://pipecat.ai">Pipecat</a></b> (🥇36 ·  ⭐ 16K) - Open Source framework for voice agents, multimodal apps, and realtime AI... <code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code> <code>📞 phone</code></summary>
 
-- [GitHub]() (👨‍💻 540):
-
-	```
-	git clone https://github.com/livekit/agents
-	```
-- [PyPi](https://pypi.org/project/livekit-agents) (📥 3.6M / month):
-	```
-	pip install livekit-agents
-	```
-</details>
-<details><summary><b><a href="https://pipecat.ai">Pipecat</a></b> (🥈9) - Open Source framework for voice agents, multimodal apps, and realtime AI... <code>❗Unlicensed</code> <code>📞 phone</code></summary>
-
-- [GitHub]() (👨‍💻 360):
+- [GitHub](https://github.com/pipecat-ai/pipecat) (👨‍💻 360 · 🔀 2.8K · 📋 1.4K - 8% open · ⏱️ 12.10.2026):
 
 	```
 	git clone https://github.com/pipecat-ai/pipecat
@@ -78,17 +66,37 @@ _Answer calls, qualify leads, and book jobs 24/7 with voice AI._
 	pip install pipecat-ai
 	```
 </details>
-<details><summary><b><a href="https://app.dograh.com">Dograh</a></b> (🥈4) - Open source voice AI platform. Self-hosted alternative to Vapi and Retell. On.. <code>❗Unlicensed</code> <code>📞 phone</code> <code>self-hosted</code></summary>
+<details><summary><b><a href="https://docs.livekit.io/agents">LiveKit Agents</a></b> (🥈34 ·  ⭐ 15K) - A framework for building realtime voice AI agents. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code>📞 phone</code></summary>
 
-- [GitHub]() (👨‍💻 68 · 📦 13):
+- [GitHub](https://github.com/livekit/agents) (👨‍💻 540 · 🔀 3.1K · 📥 830 · 📋 2.2K - 9% open · ⏱️ 12.10.2026):
+
+	```
+	git clone https://github.com/livekit/agents
+	```
+- [PyPi](https://pypi.org/project/livekit-agents) (📥 3.6M / month):
+	```
+	pip install livekit-agents
+	```
+</details>
+<details><summary><b><a href="https://app.dograh.com">Dograh</a></b> (🥈24 ·  ⭐ 5.9K) - Open source voice AI platform. Self-hosted alternative to Vapi and Retell. On.. <code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code> <code>📞 phone</code> <code>self-hosted</code></summary>
+
+- [GitHub](https://github.com/dograh-hq/dograh) (👨‍💻 68 · 🔀 1.5K · 📦 13 · 📋 170 - 28% open · ⏱️ 12.10.2026):
 
 	```
 	git clone https://github.com/dograh-hq/dograh
 	```
 </details>
-<details><summary><b><a href="https://vocode.dev">Vocode</a></b> (🥈4) - Build voice-based LLM agents. Modular + open source. <code>❗Unlicensed</code> <code>📞 phone</code></summary>
+<details><summary><b><a href="https://www.bolna.ai">Bolna</a></b> (🥉21 ·  ⭐ 790) - Conversational voice AI agents. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>📞 phone</code></summary>
 
-- [GitHub]() (👨‍💻 59):
+- [GitHub](https://github.com/bolna-ai/bolna) (👨‍💻 39 · 🔀 370 · 📋 130 - 48% open · ⏱️ 12.10.2026):
+
+	```
+	git clone https://github.com/bolna-ai/bolna
+	```
+</details>
+<details><summary><b><a href="https://vocode.dev">Vocode</a></b> (🥉20 ·  ⭐ 3.8K · 💀) - Build voice-based LLM agents. Modular + open source. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>📞 phone</code></summary>
+
+- [GitHub](https://github.com/vocodedev/vocode-core) (👨‍💻 59 · 🔀 640 · ⏱️ 15.11.2024):
 
 	```
 	git clone https://github.com/vocodedev/vocode-core
@@ -98,25 +106,17 @@ _Answer calls, qualify leads, and book jobs 24/7 with voice AI._
 	pip install vocode
 	```
 </details>
-<details><summary><b><a href="https://www.bolna.ai">Bolna</a></b> (🥉2) - Conversational voice AI agents. <code>❗Unlicensed</code> <code>📞 phone</code></summary>
+<details><summary><b><a href="https://ultravox.ai">Ultravox</a></b> (🥉14 ·  ⭐ 4.6K · 💤) - A fast multimodal LLM for real-time voice. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
-- [GitHub]() (👨‍💻 39):
-
-	```
-	git clone https://github.com/bolna-ai/bolna
-	```
-</details>
-<details><summary><b><a href="https://ultravox.ai">Ultravox</a></b> (🥉1) - A fast multimodal LLM for real-time voice. <code>❗Unlicensed</code></summary>
-
-- [GitHub]() (👨‍💻 16 · 📦 1):
+- [GitHub](https://github.com/fixie-ai/ultravox) (👨‍💻 16 · 🔀 380 · 📦 1 · 📋 100 - 52% open · ⏱️ 12.12.2025):
 
 	```
 	git clone https://github.com/fixie-ai/ultravox
 	```
 </details>
-<details><summary><b><a href="https://github.com/kirklandsig/AIReceptionist">AIReceptionist</a></b> - Open-source, self-hosted AI phone receptionist powered by OpenAI Realtime API... <code>❗Unlicensed</code> <code>📞 phone</code> <code>self-hosted</code></summary>
+<details><summary><b><a href="https://github.com/kirklandsig/AIReceptionist">AIReceptionist</a></b> (🥉11 ·  ⭐ 140) - Open-source, self-hosted AI phone receptionist powered by OpenAI Realtime API... <code><a href="http://bit.ly/3pwmjO5">❗️AGPL-3.0</a></code> <code>📞 phone</code> <code>self-hosted</code></summary>
 
-- [GitHub]() (👨‍💻 2):
+- [GitHub](https://github.com/kirklandsig/AIReceptionist) (👨‍💻 2 · 🔀 50 · 📋 18 - 11% open · ⏱️ 16.09.2026):
 
 	```
 	git clone https://github.com/kirklandsig/AIReceptionist
@@ -130,9 +130,17 @@ _Answer calls, qualify leads, and book jobs 24/7 with voice AI._
 
 _Chat widgets, shared inboxes, and lead-capture bots for your website, SMS, and social._
 
-<details><summary><b><a href="https://rasa.com/docs/rasa/">Rasa</a></b> (🥇8) - Open source machine learning framework to automate text- and voice-based.. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://anythingllm.com">AnythingLLM</a></b> (🥇33 ·  ⭐ 67K) - Stop renting your intelligence. Own it with AnythingLLM. Everything you need.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>self-hosted</code> <code>no-code</code></summary>
 
-- [GitHub]() (👨‍💻 600):
+- [GitHub](https://github.com/Mintplex-Labs/anything-llm) (👨‍💻 270 · 🔀 7.4K · 📥 570K · 📋 4K - 7% open · ⏱️ 12.10.2026):
+
+	```
+	git clone https://github.com/Mintplex-Labs/anything-llm
+	```
+</details>
+<details><summary><b><a href="https://rasa.com/docs/rasa/">Rasa</a></b> (🥈29 ·  ⭐ 21K · 💤) - Open source machine learning framework to automate text- and voice-based.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+
+- [GitHub](https://github.com/RasaHQ/rasa) (👨‍💻 600 · 🔀 4.8K · 📋 6.7K - 0% open · ⏱️ 18.12.2025):
 
 	```
 	git clone https://github.com/RasaHQ/rasa
@@ -142,33 +150,25 @@ _Chat widgets, shared inboxes, and lead-capture bots for your website, SMS, and 
 	pip install rasa
 	```
 </details>
-<details><summary><b><a href="https://botpress.com">Botpress</a></b> (🥈6) - The open-source hub to build & deploy GPT/LLM Agents. <code>❗Unlicensed</code> <code>no-code</code></summary>
+<details><summary><b><a href="https://www.chatwoot.com/help-center">Chatwoot</a></b> (🥉27 ·  ⭐ 38K) - Open-source live-chat, email support, omni-channel desk. An alternative to.. <code>❗Unlicensed</code> <code>self-hosted</code> <code>no-code</code></summary>
 
-- [GitHub]() (👨‍💻 79 · 📦 460):
-
-	```
-	git clone https://github.com/botpress/botpress
-	```
-</details>
-<details><summary><b><a href="https://www.chatwoot.com/help-center">Chatwoot</a></b> (🥉3) - Open-source live-chat, email support, omni-channel desk. An alternative to.. <code>❗Unlicensed</code> <code>self-hosted</code> <code>no-code</code></summary>
-
-- [GitHub]() (👨‍💻 400):
+- [GitHub](https://github.com/chatwoot/chatwoot) (👨‍💻 400 · 🔀 8.9K · 📋 5.9K - 18% open · ⏱️ 12.10.2026):
 
 	```
 	git clone https://github.com/chatwoot/chatwoot
 	```
 </details>
-<details><summary><b><a href="https://anythingllm.com">AnythingLLM</a></b> (🥉3) - Stop renting your intelligence. Own it with AnythingLLM. Everything you need.. <code>❗Unlicensed</code> <code>self-hosted</code> <code>no-code</code></summary>
+<details><summary><b><a href="https://botpress.com">Botpress</a></b> (🥉27 ·  ⭐ 15K) - The open-source hub to build & deploy GPT/LLM Agents. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>no-code</code></summary>
 
-- [GitHub]() (👨‍💻 270):
+- [GitHub](https://github.com/botpress/botpress) (👨‍💻 79 · 🔀 2.3K · 📦 460 · 📋 120 - 10% open · ⏱️ 09.10.2026):
 
 	```
-	git clone https://github.com/Mintplex-Labs/anything-llm
+	git clone https://github.com/botpress/botpress
 	```
 </details>
-<details><summary><b><a href="https://typebot.io">Typebot</a></b> (🥉2) - Typebot is a powerful chatbot builder that you can self-host. <code>❗Unlicensed</code> <code>self-hosted</code> <code>no-code</code> <code>🔒 source-available</code></summary>
+<details><summary><b><a href="https://typebot.io">Typebot</a></b> (🥉24 ·  ⭐ 11K) - Typebot is a powerful chatbot builder that you can self-host. <code>❗Unlicensed</code> <code>self-hosted</code> <code>no-code</code> <code>🔒 source-available</code></summary>
 
-- [GitHub]() (👨‍💻 91):
+- [GitHub](https://github.com/baptisteArno/typebot.io) (👨‍💻 91 · 🔀 3.2K · 📋 1.7K - 0% open · ⏱️ 07.10.2026):
 
 	```
 	git clone https://github.com/baptisteArno/typebot.io
@@ -182,9 +182,9 @@ _Chat widgets, shared inboxes, and lead-capture bots for your website, SMS, and 
 
 _Glue tools together: missed-call text-back, review requests, lead routing._
 
-<details><summary><b><a href="https://n8n.io">n8n</a></b> (🥇14 · 📈) - Fair-code workflow automation platform with native AI capabilities. Combine.. <code>❗Unlicensed</code> <code>self-hosted</code> <code>no-code</code> <code>🔒 source-available</code></summary>
+<details><summary><b><a href="https://n8n.io">n8n</a></b> (🥇42 ·  ⭐ 210K) - Fair-code workflow automation platform with native AI capabilities. Combine.. <code>❗Unlicensed</code> <code>self-hosted</code> <code>no-code</code> <code>🔒 source-available</code></summary>
 
-- [GitHub]() (👨‍💻 810 · 📦 1.2K):
+- [GitHub](https://github.com/n8n-io/n8n) (👨‍💻 810 · 🔀 61K · 📥 7.2K · 📦 1.2K · 📋 10K - 3% open · ⏱️ 12.10.2026):
 
 	```
 	git clone https://github.com/n8n-io/n8n
@@ -194,17 +194,17 @@ _Glue tools together: missed-call text-back, review requests, lead routing._
 	npm install n8n
 	```
 </details>
-<details><summary><b><a href="https://dify.ai">Dify</a></b> (🥉8) - Build Agentic workflows, RAG pipelines, with rich AI model and tool support on.. <code>❗Unlicensed</code> <code>self-hosted</code> <code>no-code</code> <code>🔒 source-available</code></summary>
+<details><summary><b><a href="https://dify.ai">Dify</a></b> (🥉38 ·  ⭐ 160K) - Build Agentic workflows, RAG pipelines, with rich AI model and tool support on.. <code>❗Unlicensed</code> <code>self-hosted</code> <code>no-code</code> <code>🔒 source-available</code></summary>
 
-- [GitHub]() (👨‍💻 1.5K · 📦 720):
+- [GitHub](https://github.com/langgenius/dify) (👨‍💻 1.5K · 🔀 25K · 📥 20K · 📦 720 · 📋 19K - 2% open · ⏱️ 12.10.2026):
 
 	```
 	git clone https://github.com/langgenius/dify
 	```
 </details>
-<details><summary><b><a href="https://www.activepieces.com">Activepieces</a></b> (🥉3) - AI Agents & MCPs & AI Workflow Automation (~400 MCP servers for AI agents) AI.. <code>❗Unlicensed</code> <code>self-hosted</code> <code>no-code</code></summary>
+<details><summary><b><a href="https://www.activepieces.com">Activepieces</a></b> (🥉29 ·  ⭐ 25K) - AI Agents & MCPs & AI Workflow Automation (~400 MCP servers for AI agents) AI.. <code>❗Unlicensed</code> <code>self-hosted</code> <code>no-code</code></summary>
 
-- [GitHub]() (👨‍💻 500):
+- [GitHub](https://github.com/activepieces/activepieces) (👨‍💻 500 · 🔀 4.3K · 📋 3.3K - 13% open · ⏱️ 12.10.2026):
 
 	```
 	git clone https://github.com/activepieces/activepieces
@@ -218,44 +218,44 @@ _Glue tools together: missed-call text-back, review requests, lead routing._
 
 _Online booking and customer/lead management._
 
-<details><summary><b><a href="https://cal.diy">Cal.com</a></b> (🥇8) - Scheduling infrastructure for absolutely everyone. <code>❗Unlicensed</code> <code>self-hosted</code></summary>
+<details><summary><b><a href="https://cal.diy">Cal.com</a></b> (🥇33 ·  ⭐ 49K) - Scheduling infrastructure for absolutely everyone. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>self-hosted</code></summary>
 
-- [GitHub]() (👨‍💻 980 · 📦 3.8K):
+- [GitHub](https://github.com/calcom/cal.diy) (👨‍💻 980 · 🔀 15K · 📦 3.8K · 📋 9.4K - 12% open · ⏱️ 20.09.2026):
 
 	```
 	git clone https://github.com/calcom/cal.diy
 	```
 </details>
-<details><summary><b><a href="https://twenty.com">Twenty CRM</a></b> (🥈4) - The open alternative to Salesforce, designed for AI. <code>❗Unlicensed</code> <code>self-hosted</code></summary>
+<details><summary><b><a href="https://twenty.com">Twenty CRM</a></b> (🥈29 ·  ⭐ 58K) - The open alternative to Salesforce, designed for AI. <code>❗Unlicensed</code> <code>self-hosted</code></summary>
 
-- [GitHub]() (👨‍💻 780 · 📦 3):
+- [GitHub](https://github.com/twentyhq/twenty) (👨‍💻 780 · 🔀 9.5K · 📦 3 · 📋 7.1K - 0% open · ⏱️ 12.10.2026):
 
 	```
 	git clone https://github.com/twentyhq/twenty
 	```
 </details>
-<details><summary><b><a href="https://easyappointments.org">Easy!Appointments</a></b> (🥉2) - Easy!Appointments - Self Hosted Appointment Scheduler. <code>❗Unlicensed</code> <code>self-hosted</code></summary>
+<details><summary><b><a href="https://www.espocrm.com">EspoCRM</a></b> (🥉27 ·  ⭐ 3.5K) - EspoCRM Open Source CRM Application. <code><a href="http://bit.ly/3pwmjO5">❗️AGPL-3.0</a></code> <code>self-hosted</code></summary>
 
-- [GitHub]() (👨‍💻 110):
+- [GitHub](https://github.com/espocrm/espocrm) (👨‍💻 70 · 🔀 990 · 📥 33K · 📋 3K - 1% open · ⏱️ 09.10.2026):
 
 	```
-	git clone https://github.com/alextselegidis/easyappointments
+	git clone https://github.com/espocrm/espocrm
 	```
 </details>
-<details><summary><b><a href="https://krayincrm.com">Krayin CRM</a></b> (🥉2) - Krayin CRM is Free & Open Source CRM Built with Laravel for Customer, Lead,.. <code>❗Unlicensed</code> <code>self-hosted</code></summary>
+<details><summary><b><a href="https://krayincrm.com">Krayin CRM</a></b> (🥉26 ·  ⭐ 24K) - Krayin CRM is Free & Open Source CRM Built with Laravel for Customer, Lead,.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>self-hosted</code></summary>
 
-- [GitHub]() (👨‍💻 65):
+- [GitHub](https://github.com/krayin/laravel-crm) (👨‍💻 65 · 🔀 1.7K · 📋 1.1K - 8% open · ⏱️ 09.10.2026):
 
 	```
 	git clone https://github.com/krayin/laravel-crm
 	```
 </details>
-<details><summary><b><a href="https://www.espocrm.com">EspoCRM</a></b> (🥉2) - EspoCRM Open Source CRM Application. <code>❗Unlicensed</code> <code>self-hosted</code></summary>
+<details><summary><b><a href="https://easyappointments.org">Easy!Appointments</a></b> (🥉25 ·  ⭐ 4.4K) - Easy!Appointments - Self Hosted Appointment Scheduler. <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code> <code>self-hosted</code></summary>
 
-- [GitHub]() (👨‍💻 70):
+- [GitHub](https://github.com/alextselegidis/easyappointments) (👨‍💻 110 · 🔀 1.5K · 📥 210K · 📋 1.4K - 10% open · ⏱️ 06.10.2026):
 
 	```
-	git clone https://github.com/espocrm/espocrm
+	git clone https://github.com/alextselegidis/easyappointments
 	```
 </details>
 <br>
@@ -266,41 +266,41 @@ _Online booking and customer/lead management._
 
 _Quotes, invoices, payments, and job dispatch._
 
-<details><summary><b><a href="https://invoiceninja.com">Invoice Ninja</a></b> (🥇2) - A source-available invoice, quote, project and time-tracking app built with.. <code>❗Unlicensed</code> <code>self-hosted</code> <code>🔒 source-available</code></summary>
+<details><summary><b><a href="https://invoiceninja.com">Invoice Ninja</a></b> (🥇29 ·  ⭐ 10K) - A source-available invoice, quote, project and time-tracking app built with.. <code>❗Unlicensed</code> <code>self-hosted</code> <code>🔒 source-available</code></summary>
 
-- [GitHub]() (👨‍💻 120):
+- [GitHub](https://github.com/invoiceninja/invoiceninja) (👨‍💻 120 · 🔀 2.7K · 📥 54K · 📋 4.8K - 4% open · ⏱️ 18.09.2026):
 
 	```
 	git clone https://github.com/invoiceninja/invoiceninja
 	```
 </details>
-<details><summary><b><a href="https://akaunting.com">Akaunting</a></b> (🥇2) - Online Accounting Software. <code>❗Unlicensed</code> <code>self-hosted</code></summary>
+<details><summary><b><a href="https://akaunting.com">Akaunting</a></b> (🥇29 ·  ⭐ 10K) - Online Accounting Software. <code>❗Unlicensed</code> <code>self-hosted</code></summary>
 
-- [GitHub]() (👨‍💻 140):
+- [GitHub](https://github.com/akaunting/akaunting) (👨‍💻 140 · 🔀 3K · 📥 380K · 📋 1.3K - 0% open · ⏱️ 08.10.2026):
 
 	```
 	git clone https://github.com/akaunting/akaunting
 	```
 </details>
-<details><summary><b><a href="https://cloud.idurarapp.com">IDURAR ERP CRM</a></b> (🥇2) - Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React. <code>❗Unlicensed</code> <code>self-hosted</code></summary>
+<details><summary><b><a href="https://invoiceshelf.com">InvoiceShelf</a></b> (🥉24 ·  ⭐ 1.9K) - Open Source Invoicing Solution for Individuals & Businesses. <code><a href="http://bit.ly/3pwmjO5">❗️AGPL-3.0</a></code> <code>self-hosted</code></summary>
 
-- [GitHub]() (👨‍💻 93):
-
-	```
-	git clone https://github.com/idurar/idurar-erp-crm
-	```
-</details>
-<details><summary><b><a href="https://invoiceshelf.com">InvoiceShelf</a></b> (🥇2) - Open Source Invoicing Solution for Individuals & Businesses. <code>❗Unlicensed</code> <code>self-hosted</code></summary>
-
-- [GitHub]() (👨‍💻 140):
+- [GitHub](https://github.com/InvoiceShelf/InvoiceShelf) (👨‍💻 140 · 🔀 380 · 📥 4K · 📋 340 - 15% open · ⏱️ 29.09.2026):
 
 	```
 	git clone https://github.com/InvoiceShelf/InvoiceShelf
 	```
 </details>
-<details><summary><b><a href="https://odoo-community.org/psc-teams/field-service-126">Odoo Field Service (OCA)</a></b> (🥇2) - Field Service Management. <code>❗Unlicensed</code> <code>self-hosted</code></summary>
+<details><summary><b><a href="https://cloud.idurarapp.com">IDURAR ERP CRM</a></b> (🥉21 ·  ⭐ 8.9K) - Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React. <code><a href="http://bit.ly/3pwmjO5">❗️AGPL-3.0</a></code> <code>self-hosted</code></summary>
 
-- [GitHub]() (👨‍💻 120):
+- [GitHub](https://github.com/idurar/idurar-erp-crm) (👨‍💻 93 · 🔀 3K · 📋 530 - 44% open · ⏱️ 14.08.2026):
+
+	```
+	git clone https://github.com/idurar/idurar-erp-crm
+	```
+</details>
+<details><summary><b><a href="https://odoo-community.org/psc-teams/field-service-126">Odoo Field Service (OCA)</a></b> (🥉19 ·  ⭐ 200) - Field Service Management. <code><a href="http://bit.ly/3pwmjO5">❗️AGPL-3.0</a></code> <code>self-hosted</code></summary>
+
+- [GitHub](https://github.com/OCA/field-service) (👨‍💻 120 · 🔀 310 · 📋 280 - 5% open · ⏱️ 08.10.2026):
 
 	```
 	git clone https://github.com/OCA/field-service
@@ -314,9 +314,9 @@ _Quotes, invoices, payments, and job dispatch._
 
 _Rank tracking, technical audits, and Google Maps/review research._
 
-<details><summary><b><a href="https://developer.chrome.com/docs/lighthouse/overview/">Lighthouse</a></b> (🥇17 · 📈) - Automated auditing, performance metrics, and best practices for the web. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://developer.chrome.com/docs/lighthouse/overview/">Lighthouse</a></b> (🥇42 ·  ⭐ 31K) - Automated auditing, performance metrics, and best practices for the web. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub]() (👨‍💻 390 · 📦 39K):
+- [GitHub](https://github.com/GoogleChrome/lighthouse) (👨‍💻 390 · 🔀 9.7K · 📥 23 · 📦 39K · 📋 9.3K - 4% open · ⏱️ 12.10.2026):
 
 	```
 	git clone https://github.com/GoogleChrome/lighthouse
@@ -326,9 +326,9 @@ _Rank tracking, technical audits, and Google Maps/review research._
 	npm install lighthouse
 	```
 </details>
-<details><summary><b><a href="https://unlighthouse.dev">Unlighthouse</a></b> (🥈11 · 📈) - Run Google Lighthouse on your entire site. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://unlighthouse.dev">Unlighthouse</a></b> (🥈26 ·  ⭐ 4.9K) - Run Google Lighthouse on your entire site. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
-- [GitHub]() (👨‍💻 30 · 📦 370):
+- [GitHub](https://github.com/harlan-zw/unlighthouse) (👨‍💻 30 · 🔀 180 · 📋 230 - 10% open · ⏱️ 11.10.2026):
 
 	```
 	git clone https://github.com/harlan-zw/unlighthouse
@@ -338,33 +338,33 @@ _Rank tracking, technical audits, and Google Maps/review research._
 	npm install unlighthouse
 	```
 </details>
-<details><summary><b><a href="https://claude-seo.md">Claude SEO</a></b> (🥈2) - Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering.. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://claude-seo.md">Claude SEO</a></b> (🥈25 ·  ⭐ 19K) - Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
-- [GitHub]() (👨‍💻 30):
+- [GitHub](https://github.com/AgriciDaniel/claude-seo) (👨‍💻 30 · 🔀 2.7K · 📥 1.9K · 📋 100 - 18% open · ⏱️ 04.10.2026):
 
 	```
 	git clone https://github.com/AgriciDaniel/claude-seo
 	```
 </details>
-<details><summary><b><a href="https://github.com/gosom/google-maps-scraper">Google Maps Scraper</a></b> (🥈2) - scrape data from Google Maps. Extracts data such as the name, address, phone.. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/gosom/google-maps-scraper">Google Maps Scraper</a></b> (🥉22 ·  ⭐ 6.4K) - scrape data from Google Maps. Extracts data such as the name, address, phone.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
-- [GitHub]() (👨‍💻 27):
+- [GitHub](https://github.com/gosom/google-maps-scraper) (👨‍💻 27 · 🔀 1K · 📥 27K · 📋 170 - 32% open · ⏱️ 24.09.2026):
 
 	```
 	git clone https://github.com/gosom/google-maps-scraper
 	```
 </details>
-<details><summary><b><a href="https://docs.serpbear.com/">SerpBear</a></b> (🥉1) - Search Engine Position Rank Tracking App. <code>❗Unlicensed</code> <code>self-hosted</code></summary>
+<details><summary><b><a href="https://docs.serpbear.com/">SerpBear</a></b> (🥉17 ·  ⭐ 2.1K) - Search Engine Position Rank Tracking App. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>self-hosted</code></summary>
 
-- [GitHub]() (👨‍💻 18):
+- [GitHub](https://github.com/towfiqi/serpbear) (👨‍💻 18 · 🔀 300 · 📋 230 - 25% open · ⏱️ 14.05.2026):
 
 	```
 	git clone https://github.com/towfiqi/serpbear
 	```
 </details>
-<details><summary><b><a href="https://seonaut.org">SEOnaut</a></b> (🥉1) - Open source SEO audit tool. <code>❗Unlicensed</code> <code>self-hosted</code></summary>
+<details><summary><b><a href="https://seonaut.org">SEOnaut</a></b> (🥉13 ·  ⭐ 810) - Open source SEO audit tool. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>self-hosted</code></summary>
 
-- [GitHub]() (👨‍💻 9):
+- [GitHub](https://github.com/StJudeWasHere/seonaut) (👨‍💻 9 · 🔀 130 · 📋 40 - 15% open · ⏱️ 08.10.2026):
 
 	```
 	git clone https://github.com/StJudeWasHere/seonaut
@@ -378,9 +378,9 @@ _Rank tracking, technical audits, and Google Maps/review research._
 
 _Measure traffic and conversions, and turn recorded calls into text and insights._
 
-<details><summary><b><a href="https://github.com/SYSTRAN/faster-whisper">faster-whisper</a></b> (🥇15 · 📈) - Faster Whisper transcription with CTranslate2. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/SYSTRAN/faster-whisper">faster-whisper</a></b> (🥇34 ·  ⭐ 26K) - Faster Whisper transcription with CTranslate2. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
-- [GitHub]() (👨‍💻 51 · 📦 14K):
+- [GitHub](https://github.com/SYSTRAN/faster-whisper) (👨‍💻 51 · 🔀 2.1K · 📦 14K · 📋 920 - 1% open · ⏱️ 10.10.2026):
 
 	```
 	git clone https://github.com/SYSTRAN/faster-whisper
@@ -390,9 +390,25 @@ _Measure traffic and conversions, and turn recorded calls into text and insights
 	pip install faster-whisper
 	```
 </details>
-<details><summary><b><a href="https://github.com/openai/whisper">Whisper</a></b> (🥈11 · 📈) - Robust speech recognition via large-scale weak supervision. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://matomo.org/">Matomo</a></b> (🥈33 ·  ⭐ 22K) - Empowering People Ethically Matomo is hiring! Join us https://matomo.org/jobs.. <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code> <code>self-hosted</code></summary>
 
-- [GitHub]() (👨‍💻 84 · 📦 24):
+- [GitHub](https://github.com/matomo-org/matomo) (👨‍💻 450 · 🔀 2.8K · 📥 11K · 📦 8 · 📋 15K - 16% open · ⏱️ 12.10.2026):
+
+	```
+	git clone https://github.com/matomo-org/matomo
+	```
+</details>
+<details><summary><b><a href="https://umami.is">Umami</a></b> (🥉31 ·  ⭐ 39K) - Umami is a privacy-first analytics platform. Traffic, campaigns, behavior,.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>self-hosted</code></summary>
+
+- [GitHub](https://github.com/umami-software/umami) (👨‍💻 440 · 🔀 8.1K · 📦 12 · 📋 2.3K - 2% open · ⏱️ 17.09.2026):
+
+	```
+	git clone https://github.com/umami-software/umami
+	```
+</details>
+<details><summary><b><a href="https://github.com/openai/whisper">Whisper</a></b> (🥉29 ·  ⭐ 110K) - Robust speech recognition via large-scale weak supervision. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+
+- [GitHub](https://github.com/openai/whisper) (👨‍💻 84 · 🔀 13K · 📦 24 · ⏱️ 31.08.2026):
 
 	```
 	git clone https://github.com/openai/whisper
@@ -402,28 +418,12 @@ _Measure traffic and conversions, and turn recorded calls into text and insights
 	pip install openai-whisper
 	```
 </details>
-<details><summary><b><a href="https://plausible.io">Plausible Analytics</a></b> (🥉6) - Open source, privacy-first web analytics. Lightweight, cookie-free Google.. <code>❗Unlicensed</code> <code>self-hosted</code></summary>
+<details><summary><b><a href="https://plausible.io">Plausible Analytics</a></b> (🥉28 ·  ⭐ 29K) - Open source, privacy-first web analytics. Lightweight, cookie-free Google.. <code><a href="http://bit.ly/3pwmjO5">❗️AGPL-3.0</a></code> <code>self-hosted</code></summary>
 
-- [GitHub]() (👨‍💻 120 · 📦 340):
+- [GitHub](https://github.com/plausible/analytics) (👨‍💻 120 · 🔀 1.9K · 📦 340 · 📋 780 - 3% open · ⏱️ 12.10.2026):
 
 	```
 	git clone https://github.com/plausible/analytics
-	```
-</details>
-<details><summary><b><a href="https://umami.is">Umami</a></b> (🥉5) - Umami is a privacy-first analytics platform. Traffic, campaigns, behavior,.. <code>❗Unlicensed</code> <code>self-hosted</code></summary>
-
-- [GitHub]() (👨‍💻 440 · 📦 12):
-
-	```
-	git clone https://github.com/umami-software/umami
-	```
-</details>
-<details><summary><b><a href="https://matomo.org/">Matomo</a></b> (🥉4) - Empowering People Ethically Matomo is hiring! Join us https://matomo.org/jobs.. <code>❗Unlicensed</code> <code>self-hosted</code></summary>
-
-- [GitHub]() (👨‍💻 450 · 📦 8):
-
-	```
-	git clone https://github.com/matomo-org/matomo
 	```
 </details>
 <br>
@@ -434,36 +434,36 @@ _Measure traffic and conversions, and turn recorded calls into text and insights
 
 _Newsletters, social scheduling, and marketing automation._
 
-<details><summary><b><a href="https://listmonk.app">listmonk</a></b> (🥇5) - High performance, self-hosted, newsletter and mailing list manager with a.. <code>❗Unlicensed</code> <code>self-hosted</code></summary>
+<details><summary><b><a href="https://www.mautic.org">Mautic</a></b> (🥇33 ·  ⭐ 11K) - Mautic: Open Source Marketing Automation Software. <code>❗Unlicensed</code> <code>self-hosted</code></summary>
 
-- [GitHub]() (👨‍💻 280 · 📦 32):
-
-	```
-	git clone https://github.com/knadh/listmonk
-	```
-</details>
-<details><summary><b><a href="https://www.mautic.org">Mautic</a></b> (🥇5) - Mautic: Open Source Marketing Automation Software. <code>❗Unlicensed</code> <code>self-hosted</code></summary>
-
-- [GitHub]() (👨‍💻 530 · 📦 24):
+- [GitHub](https://github.com/mautic/mautic) (👨‍💻 530 · 🔀 3.4K · 📥 340K · 📦 24 · 📋 7.8K - 1% open · ⏱️ 12.10.2026):
 
 	```
 	git clone https://github.com/mautic/mautic
 	```
 </details>
-<details><summary><b><a href="https://mixpost.app">Mixpost</a></b> (🥉3) - Schedule, publish, and manage your social media content on your server. No.. <code>❗Unlicensed</code> <code>self-hosted</code></summary>
+<details><summary><b><a href="https://listmonk.app">listmonk</a></b> (🥈31 ·  ⭐ 24K) - High performance, self-hosted, newsletter and mailing list manager with a.. <code><a href="http://bit.ly/3pwmjO5">❗️AGPL-3.0</a></code> <code>self-hosted</code></summary>
 
-- [GitHub]() (👨‍💻 5 · 📦 14):
+- [GitHub](https://github.com/knadh/listmonk) (👨‍💻 280 · 🔀 2.6K · 📥 140K · 📦 32 · 📋 2.3K - 4% open · ⏱️ 11.10.2026):
 
 	```
-	git clone https://github.com/inovector/mixpost
+	git clone https://github.com/knadh/listmonk
 	```
 </details>
-<details><summary><b><a href="https://postiz.com">Postiz</a></b> (🥉2) - The ultimate agentic social media scheduling tool. <code>❗Unlicensed</code> <code>self-hosted</code></summary>
+<details><summary><b><a href="https://postiz.com">Postiz</a></b> (🥉25 ·  ⭐ 37K) - The ultimate agentic social media scheduling tool. <code><a href="http://bit.ly/3pwmjO5">❗️AGPL-3.0</a></code> <code>self-hosted</code></summary>
 
-- [GitHub]() (👨‍💻 75):
+- [GitHub](https://github.com/gitroomhq/postiz-app) (👨‍💻 75 · 🔀 7.1K · 📋 840 - 16% open · ⏱️ 12.10.2026):
 
 	```
 	git clone https://github.com/gitroomhq/postiz-app
+	```
+</details>
+<details><summary><b><a href="https://mixpost.app">Mixpost</a></b> (🥉18 ·  ⭐ 3.8K · 💤) - Schedule, publish, and manage your social media content on your server. No.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>self-hosted</code></summary>
+
+- [GitHub](https://github.com/inovector/mixpost) (👨‍💻 5 · 🔀 570 · 📦 14 · 📋 140 - 19% open · ⏱️ 16.03.2026):
+
+	```
+	git clone https://github.com/inovector/mixpost
 	```
 </details>
 
