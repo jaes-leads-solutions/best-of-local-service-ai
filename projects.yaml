@@ -1,135 +1,229 @@
 configuration:
-  min_stars: 0
-  min_projectrank: 0
-  require_github: True
-  allowed_licenses: ["all"]
-  hide_project_license: True
   markdown_header_file: "config/header.md"
   markdown_footer_file: "config/footer.md"
-  projects_history_folder: "history"
+  min_stars: 100
+  min_projectrank: 5
+  allowed_licenses: ["all"]
+  project_inactive_months: 6
+  project_dead_months: 12
+  max_description_length: 80
+  generate_install_hints: true
+  hide_empty_categories: false
 
 categories:
-  - category: "data-engineering"
-    title: "Machine Learning & Data Engineering"
-    subtitle: "Best-of lists about machine learning, data engieering, data science, or other topics related to big data."
-  - category: "web-dev"
-    title: "Web Development"
-    subtitle: "Best-of lists about react, vue, angular, html5, css, or other topics related to web development."
-  - category: "native-dev"
-    title: "Native Development"
-    subtitle: "Best-of lists about iOS, Andnroid or other topics related to native development."
-  - category: "robot-dev"
-    title: "Robot Development"
-    subtitle: "Best-of lists about Robots or other topics related to robot development."
-  - category: "embedded-dev"
-    title: "Embedded Development"
-    subtitle: "Best-of lists about Embedded Linux or other topics related to embedded development."
-  - category: "dev-tools"
-    title: "Development Tools"
-    subtitle: "Best-of lists about tools & libraries to help with software development."
-  - category: "documentation"
-    title: "Documentation"
-    subtitle: "Best-of lists about documentations & tools to create documentations."
-  - category: "programming-languages"
-    title: "Programming Languages"
-    subtitle: "Best-of lists with general overviews on tools & libraries for a specific programming language."
-  - category: "internet"
-    title: "Internet"
-    subtitle: "Best-of lists about internet, browsers, services, standards, identity and digital interactions"
-  - category: "blockchain"
-    title: "Cryptocurrencies & Blockchain"
-    subtitle: "Best-of lists about cryptocurrencies, bitcoin, ethereum, or other topics related to blockchain."
+  - category: "voice-agents"
+    title: "AI Receptionists & Voice Agents"
+    subtitle: "Answer calls, qualify leads, and book jobs 24/7 with voice AI."
+  - category: "chatbots"
+    title: "Website Chatbots & Customer Messaging"
+    subtitle: "Chat widgets, shared inboxes, and lead-capture bots for your website, SMS, and social."
+  - category: "automation"
+    title: "AI Workflow Automation"
+    subtitle: "Glue tools together: missed-call text-back, review requests, lead routing."
+  - category: "scheduling-crm"
+    title: "Booking, Scheduling & CRM"
+    subtitle: "Online booking and customer/lead management."
+  - category: "invoicing-fsm"
+    title: "Invoicing, Accounting & Field Service"
+    subtitle: "Quotes, invoices, payments, and job dispatch."
+  - category: "local-seo"
+    title: "Local SEO, Site Audits & Reputation"
+    subtitle: "Rank tracking, technical audits, and Google Maps/review research."
+  - category: "analytics-calls"
+    title: "Web Analytics & Call Transcription"
+    subtitle: "Measure traffic and conversions, and turn recorded calls into text and insights."
+  - category: "marketing"
+    title: "Email, Social & Content Marketing"
+    subtitle: "Newsletters, social scheduling, and marketing automation."
 
 labels:
-  - label: "python"
-    image: "https://www.python.org/static/favicon.ico"
-    description: "Best-of list with Python projects"
-  - label: "javascript"
-    image: "https://cdn.icon-icons.com/icons2/2108/PNG/512/javascript_icon_130900.png"
-    description: "Best-of list with JavaScript projects"
- 
+  - label: "self-hosted"
+    name: "self-hosted"
+    description: "Can be self-hosted"
+  - label: "source-available"
+    name: "🔒 source-available"
+    description: "Code is public but the license is not OSI-approved open source"
+  - label: "telephony"
+    name: "📞 phone"
+    description: "Works with phone calls or SMS (e.g., via Twilio)"
+  - label: "no-code"
+    name: "no-code"
+    description: "Usable without programming"
+
 projects:
-  - name: best-of-ml-python
-    github_id: ml-tooling/best-of-ml-python
-    labels: ["python"]
-    category: "data-engineering"
-  - name: best-of-jupyter
-    github_id: ml-tooling/best-of-jupyter
-    labels: ["python"]
-    category: "data-engineering"
-  - name: best-of-web-python
-    github_id: ml-tooling/best-of-web-python
-    labels: ["python"]
-    category: "web-dev"
-  - name: best-of-streamlit
-    github_id: jrieke/best-of-streamlit
-    labels: ["python"]
-    category: "data-engineering"
-  - name: best-of-python
-    github_id: ml-tooling/best-of-python
-    labels: ["python"]
-    category: "programming-languages"
-  - name: best-of-python-dev
-    github_id: ml-tooling/best-of-python-dev
-    labels: ["python"]
-    category: "dev-tools"
-  - name: best-of-ml-julia
-    github_id: e-tornike/best-of-ml-julia
-    category: "data-engineering"
-  - name: best-of-ml-rust
-    github_id: e-tornike/best-of-ml-rust
-    category: "data-engineering"
-  - name: best-of-react
-    github_id: lukasmasuch/best-of-react
-    labels: ["javascript"]
-    category: "web-dev"
-  - name: best-of-mkdocs
-    github_id: mkdocs/catalog
-    category: "documentation"
-  - name: best-of-digital-gardens
-    github_id: lyz-code/best-of-digital-gardens
-    category: "documentation"
-  - name: best-of-crypto
-    github_id: lukasmasuch/best-of-crypto
-    category: "blockchain"
-  - name: thumbor/awesome-thumbor
-    github_id: thumbor/awesome-thumbor
-  - name: best-of-fastapi
-    github_id: fkromer/best-of-fastapi
-    labels: ["python"]
-    category: "web-dev"
-  - name: best-of-django
-    github_id: fkromer/best-of-django
-    labels: ["python"]
-    category: "web-dev"
-  - name: best-of-ps
-    github_id: jinningwang/best-of-ps
-  - name: best-of-vue
-    github_id: fkromer/best-of-vue
-    labels: ["javascript"]
-    category: "web-dev"
-  - name: best-of-scala
-    github_id: stkeky/best-of-scala
-    category: "programming-languages"
-  - name: best-of-react-native
-    github_id: fkromer/best-of-react-native
-    category: "native-dev"
-  - name: best-of-robot-simulators
-    github_id: knmcguire/best-of-robot-simulators
-    category: "robot-dev"
-  - name: best-of-rust-on-embedded-linux
-    github_id: fkromer/best-of-rust-on-embedded-linux
-    category: "embedded-dev"
-  - name: best-of-digital-identity
-    github_id: jruizaranguren/best-of-digital-identity
-    category: "internet"
-  - name: awesome-gpts
-    github_id: taranjeet/awesome-gpts
-    labels: ["python"]
-    category: "data-engineering"
-  - name: best-of-nix
-    github_id: tolkonepiu/best-of-nix
-    category: "programming-languages"
-  - name: best-of-mcp-servers
-    github_id: tolkonepiu/best-of-mcp-servers
-    category: "data-engineering"
+  # --- AI Receptionists & Voice Agents ---
+  - name: "Pipecat"
+    github_id: "pipecat-ai/pipecat"
+    pypi_id: "pipecat-ai"
+    category: "voice-agents"
+    labels: ["telephony"]
+  - name: "LiveKit Agents"
+    github_id: "livekit/agents"
+    pypi_id: "livekit-agents"
+    category: "voice-agents"
+    labels: ["telephony"]
+  - name: "Dograh"
+    github_id: "dograh-hq/dograh"
+    category: "voice-agents"
+    labels: ["telephony", "self-hosted"]
+  - name: "Ultravox"
+    github_id: "fixie-ai/ultravox"
+    category: "voice-agents"
+  - name: "Vocode"
+    github_id: "vocodedev/vocode-core"
+    pypi_id: "vocode"
+    category: "voice-agents"
+    labels: ["telephony"]
+  - name: "Bolna"
+    github_id: "bolna-ai/bolna"
+    category: "voice-agents"
+    labels: ["telephony"]
+  - name: "AIReceptionist"
+    github_id: "kirklandsig/AIReceptionist"
+    category: "voice-agents"
+    labels: ["telephony", "self-hosted"]
+
+  # --- Website Chatbots & Customer Messaging ---
+  - name: "Chatwoot"
+    github_id: "chatwoot/chatwoot"
+    category: "chatbots"
+    labels: ["self-hosted", "no-code"]
+  - name: "AnythingLLM"
+    github_id: "Mintplex-Labs/anything-llm"
+    category: "chatbots"
+    labels: ["self-hosted", "no-code"]
+  - name: "Botpress"
+    github_id: "botpress/botpress"
+    category: "chatbots"
+    labels: ["no-code"]
+  - name: "Rasa"
+    github_id: "RasaHQ/rasa"
+    pypi_id: "rasa"
+    category: "chatbots"
+  - name: "Typebot"
+    github_id: "baptisteArno/typebot.io"
+    category: "chatbots"
+    labels: ["self-hosted", "no-code", "source-available"]
+
+  # --- AI Workflow Automation ---
+  - name: "n8n"
+    github_id: "n8n-io/n8n"
+    npm_id: "n8n"
+    category: "automation"
+    labels: ["self-hosted", "no-code", "source-available"]
+  - name: "Dify"
+    github_id: "langgenius/dify"
+    category: "automation"
+    labels: ["self-hosted", "no-code", "source-available"]
+  - name: "Activepieces"
+    github_id: "activepieces/activepieces"
+    category: "automation"
+    labels: ["self-hosted", "no-code"]
+
+  # --- Booking, Scheduling & CRM ---
+  - name: "Cal.com"
+    github_id: "calcom/cal.diy"   # old calcom/cal.com redirects here; confirm before launch
+    category: "scheduling-crm"
+    labels: ["self-hosted"]
+  - name: "Easy!Appointments"
+    github_id: "alextselegidis/easyappointments"
+    category: "scheduling-crm"
+    labels: ["self-hosted"]
+  - name: "Twenty CRM"
+    github_id: "twentyhq/twenty"
+    category: "scheduling-crm"
+    labels: ["self-hosted"]
+  - name: "Krayin CRM"
+    github_id: "krayin/laravel-crm"
+    category: "scheduling-crm"
+    labels: ["self-hosted"]
+  - name: "EspoCRM"
+    github_id: "espocrm/espocrm"
+    category: "scheduling-crm"
+    labels: ["self-hosted"]
+
+  # --- Invoicing, Accounting & Field Service ---
+  - name: "Invoice Ninja"
+    github_id: "invoiceninja/invoiceninja"
+    category: "invoicing-fsm"
+    labels: ["self-hosted", "source-available"]
+  - name: "Akaunting"
+    github_id: "akaunting/akaunting"
+    category: "invoicing-fsm"
+    labels: ["self-hosted"]
+  - name: "IDURAR ERP CRM"
+    github_id: "idurar/idurar-erp-crm"
+    category: "invoicing-fsm"
+    labels: ["self-hosted"]
+  - name: "InvoiceShelf"
+    github_id: "InvoiceShelf/InvoiceShelf"
+    category: "invoicing-fsm"
+    labels: ["self-hosted"]
+  - name: "Odoo Field Service (OCA)"
+    github_id: "OCA/field-service"
+    category: "invoicing-fsm"
+    labels: ["self-hosted"]
+
+  # --- Local SEO, Site Audits & Reputation ---
+  - name: "Lighthouse"
+    github_id: "GoogleChrome/lighthouse"
+    npm_id: "lighthouse"
+    category: "local-seo"
+  - name: "Claude SEO"
+    github_id: "AgriciDaniel/claude-seo"
+    category: "local-seo"
+  - name: "Google Maps Scraper"
+    github_id: "gosom/google-maps-scraper"
+    category: "local-seo"
+  - name: "Unlighthouse"
+    github_id: "harlan-zw/unlighthouse"
+    npm_id: "unlighthouse"
+    category: "local-seo"
+  - name: "SerpBear"
+    github_id: "towfiqi/serpbear"
+    category: "local-seo"
+    labels: ["self-hosted"]
+  - name: "SEOnaut"
+    github_id: "StJudeWasHere/seonaut"
+    category: "local-seo"
+    labels: ["self-hosted"]
+
+  # --- Web Analytics & Call Transcription ---
+  - name: "Whisper"
+    github_id: "openai/whisper"
+    pypi_id: "openai-whisper"
+    category: "analytics-calls"
+  - name: "faster-whisper"
+    github_id: "SYSTRAN/faster-whisper"
+    pypi_id: "faster-whisper"
+    category: "analytics-calls"
+  - name: "Umami"
+    github_id: "umami-software/umami"
+    category: "analytics-calls"
+    labels: ["self-hosted"]
+  - name: "Plausible Analytics"
+    github_id: "plausible/analytics"
+    category: "analytics-calls"
+    labels: ["self-hosted"]
+  - name: "Matomo"
+    github_id: "matomo-org/matomo"
+    category: "analytics-calls"
+    labels: ["self-hosted"]
+
+  # --- Email, Social & Content Marketing ---
+  - name: "Postiz"
+    github_id: "gitroomhq/postiz-app"
+    category: "marketing"
+    labels: ["self-hosted"]
+  - name: "listmonk"
+    github_id: "knadh/listmonk"
+    category: "marketing"
+    labels: ["self-hosted"]
+  - name: "Mautic"
+    github_id: "mautic/mautic"
+    category: "marketing"
+    labels: ["self-hosted"]
+  - name: "Mixpost"
+    github_id: "inovector/mixpost"
+    category: "marketing"
+    labels: ["self-hosted"]
