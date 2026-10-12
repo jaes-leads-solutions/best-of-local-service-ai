@@ -1,0 +1,19 @@
+name: debug-github-graphql
+on:
+  workflow_dispatch:
+jobs:
+  debug:
+    runs-on: ubuntu-latest
+    steps:
+      - name: light-query
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          curl -s -H "Authorization: bearer $GH_TOKEN" https://api.github.com/graphql \
+            -d '{"query":"{ repository(owner:\"n8n-io\", name:\"n8n\") { description homepageUrl stargazers { totalCount } } }"}' | head -c 3000; echo
+      - name: heavy-query
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          curl -s -H "Authorization: bearer $GH_TOKEN" https://api.github.com/graphql \
+            -d '{"query":"{ repository(owner:\"n8n-io\", name:\"n8n\") { description releases(first:100){ nodes { releaseAssets(first:100){ nodes { downloadCount } } } } } }"}' | head -c 3000; echo
