@@ -43,11 +43,39 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: update-best-of-list
-        uses: best-of-lists/best-of-update-action@v0.8.5
+      - uses: actions/setup-python@v5
         with:
-          libraries_key: ${{ secrets.LIBRARIES_KEY }}
-          github_key: ${{ secrets.BEST_OF_GITHUB_TOKEN }}
+          python-version: "3.12"
+      - name: update-best-of-list
+        shell: bash
+        env:
+          INPUT_LIBRARIES_KEY: ${{ secrets.LIBRARIES_KEY }}
+          INPUT_GITHUB_KEY: ${{ secrets.BEST_OF_GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          pip install --no-cache-dir best-of==0.8.6
+          # Patch: GitHub (Jul 2026) forbids repository.stargazers for tokens without
+          # admin/collaborator access, which nulls the whole repository result.
+          # Use the unrestricted stargazerCount field and drop watchers{totalCount}.
+          python - <<'PY'
+          import re, importlib.util
+          p = importlib.util.find_spec("best_of.integrations.github_integration").origin
+          s = open(p).read()
+          s, n1 = re.subn(r"stargazers\s*\{\s*totalCount\s*\}", "stargazerCount", s)
+          s, n2 = re.subn(r"\n\s*watchers\s*\{\s*totalCount\s*\}", "", s)
+          s, n3 = re.subn(r"github_info\.stargazers and github_info\.stargazers\.totalCount", "github_info.stargazerCount", s)
+          s, n4 = re.subn(r"github_info\.stargazers\.totalCount", "github_info.stargazerCount", s)
+          if (n1, n2, n3, n4) != (1, 1, 1, 1) or "stargazers" in s or "watchers {" in s:
+              raise SystemExit(f"best-of patch did not apply cleanly: {(n1, n2, n3, n4)}")
+          open(p, "w").write(s)
+          print("patched", p)
+          PY
+          python -c "import best_of.integrations.github_integration"
+          # Same as best-of-update-action v0.8.5 resources/entrypoint.sh
+          ARGS=()
+          [ -n "${INPUT_LIBRARIES_KEY:-}" ] && ARGS+=("--libraries-key=$INPUT_LIBRARIES_KEY")
+          [ -n "${INPUT_GITHUB_KEY:-}" ] && ARGS+=("--github-key=$INPUT_GITHUB_KEY")
+          best-of generate "${ARGS[@]}" projects.yaml
       - name: push-update
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
