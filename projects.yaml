@@ -1,229 +1,380 @@
 configuration:
-  markdown_header_file: "config/header.md"
-  markdown_footer_file: "config/footer.md"
+  markdown_header_file: config/header.md
+  markdown_footer_file: config/footer.md
   min_stars: 100
   min_projectrank: 5
-  allowed_licenses: ["all"]
+  allowed_licenses:
+  - all
   project_inactive_months: 6
   project_dead_months: 12
   max_description_length: 80
   generate_install_hints: true
   hide_empty_categories: false
-
 categories:
-  - category: "voice-agents"
-    title: "AI Receptionists & Voice Agents"
-    subtitle: "Answer calls, qualify leads, and book jobs 24/7 with voice AI."
-  - category: "chatbots"
-    title: "Website Chatbots & Customer Messaging"
-    subtitle: "Chat widgets, shared inboxes, and lead-capture bots for your website, SMS, and social."
-  - category: "automation"
-    title: "AI Workflow Automation"
-    subtitle: "Glue tools together: missed-call text-back, review requests, lead routing."
-  - category: "scheduling-crm"
-    title: "Booking, Scheduling & CRM"
-    subtitle: "Online booking and customer/lead management."
-  - category: "invoicing-fsm"
-    title: "Invoicing, Accounting & Field Service"
-    subtitle: "Quotes, invoices, payments, and job dispatch."
-  - category: "local-seo"
-    title: "Local SEO, Site Audits & Reputation"
-    subtitle: "Rank tracking, technical audits, and Google Maps/review research."
-  - category: "analytics-calls"
-    title: "Web Analytics & Call Transcription"
-    subtitle: "Measure traffic and conversions, and turn recorded calls into text and insights."
-  - category: "marketing"
-    title: "Email, Social & Content Marketing"
-    subtitle: "Newsletters, social scheduling, and marketing automation."
-
+- category: voice-agents
+  title: AI Receptionists & Voice Agents
+  subtitle: Answer calls, qualify leads, and book jobs 24/7 with voice AI.
+- category: chatbots
+  title: Website Chatbots & Customer Messaging
+  subtitle: Chat widgets, shared inboxes, and lead-capture bots for your website, SMS, and social.
+- category: automation
+  title: AI Workflow Automation
+  subtitle: 'Glue tools together: missed-call text-back, review requests, lead routing.'
+- category: scheduling-crm
+  title: Booking, Scheduling & CRM
+  subtitle: Online booking and customer/lead management.
+- category: invoicing-fsm
+  title: Invoicing, Accounting & Field Service
+  subtitle: Quotes, invoices, payments, and job dispatch.
+- category: local-seo
+  title: Local SEO, Site Audits & Reputation
+  subtitle: Rank tracking, technical audits, and Google Maps/review research.
+- category: analytics-calls
+  title: Web Analytics & Call Transcription
+  subtitle: Measure traffic and conversions, and turn recorded calls into text and insights.
+- category: marketing
+  title: Email, Social & Content Marketing
+  subtitle: Newsletters, social scheduling, and marketing automation.
 labels:
-  - label: "self-hosted"
-    name: "self-hosted"
-    description: "Can be self-hosted"
-  - label: "source-available"
-    name: "🔒 source-available"
-    description: "Code is public but the license is not OSI-approved open source"
-  - label: "telephony"
-    name: "📞 phone"
-    description: "Works with phone calls or SMS (e.g., via Twilio)"
-  - label: "no-code"
-    name: "no-code"
-    description: "Usable without programming"
-
+- label: self-hosted
+  name: self-hosted
+  description: Can be self-hosted
+- label: source-available
+  name: 🔒 source-available
+  description: Code is public but the license is not OSI-approved open source
+- label: telephony
+  name: 📞 phone
+  description: Works with phone calls or SMS (e.g., via Twilio)
+- label: no-code
+  name: no-code
+  description: Usable without programming
 projects:
-  # --- AI Receptionists & Voice Agents ---
-  - name: "Pipecat"
-    github_id: "pipecat-ai/pipecat"
-    pypi_id: "pipecat-ai"
-    category: "voice-agents"
-    labels: ["telephony"]
-  - name: "LiveKit Agents"
-    github_id: "livekit/agents"
-    pypi_id: "livekit-agents"
-    category: "voice-agents"
-    labels: ["telephony"]
-  - name: "Dograh"
-    github_id: "dograh-hq/dograh"
-    category: "voice-agents"
-    labels: ["telephony", "self-hosted"]
-  - name: "Ultravox"
-    github_id: "fixie-ai/ultravox"
-    category: "voice-agents"
-  - name: "Vocode"
-    github_id: "vocodedev/vocode-core"
-    pypi_id: "vocode"
-    category: "voice-agents"
-    labels: ["telephony"]
-  - name: "Bolna"
-    github_id: "bolna-ai/bolna"
-    category: "voice-agents"
-    labels: ["telephony"]
-  - name: "AIReceptionist"
-    github_id: "kirklandsig/AIReceptionist"
-    category: "voice-agents"
-    labels: ["telephony", "self-hosted"]
-
-  # --- Website Chatbots & Customer Messaging ---
-  - name: "Chatwoot"
-    github_id: "chatwoot/chatwoot"
-    category: "chatbots"
-    labels: ["self-hosted", "no-code"]
-  - name: "AnythingLLM"
-    github_id: "Mintplex-Labs/anything-llm"
-    category: "chatbots"
-    labels: ["self-hosted", "no-code"]
-  - name: "Botpress"
-    github_id: "botpress/botpress"
-    category: "chatbots"
-    labels: ["no-code"]
-  - name: "Rasa"
-    github_id: "RasaHQ/rasa"
-    pypi_id: "rasa"
-    category: "chatbots"
-  - name: "Typebot"
-    github_id: "baptisteArno/typebot.io"
-    category: "chatbots"
-    labels: ["self-hosted", "no-code", "source-available"]
-
-  # --- AI Workflow Automation ---
-  - name: "n8n"
-    github_id: "n8n-io/n8n"
-    npm_id: "n8n"
-    category: "automation"
-    labels: ["self-hosted", "no-code", "source-available"]
-  - name: "Dify"
-    github_id: "langgenius/dify"
-    category: "automation"
-    labels: ["self-hosted", "no-code", "source-available"]
-  - name: "Activepieces"
-    github_id: "activepieces/activepieces"
-    category: "automation"
-    labels: ["self-hosted", "no-code"]
-
-  # --- Booking, Scheduling & CRM ---
-  - name: "Cal.com"
-    github_id: "calcom/cal.diy"   # old calcom/cal.com redirects here; confirm before launch
-    category: "scheduling-crm"
-    labels: ["self-hosted"]
-  - name: "Easy!Appointments"
-    github_id: "alextselegidis/easyappointments"
-    category: "scheduling-crm"
-    labels: ["self-hosted"]
-  - name: "Twenty CRM"
-    github_id: "twentyhq/twenty"
-    category: "scheduling-crm"
-    labels: ["self-hosted"]
-  - name: "Krayin CRM"
-    github_id: "krayin/laravel-crm"
-    category: "scheduling-crm"
-    labels: ["self-hosted"]
-  - name: "EspoCRM"
-    github_id: "espocrm/espocrm"
-    category: "scheduling-crm"
-    labels: ["self-hosted"]
-
-  # --- Invoicing, Accounting & Field Service ---
-  - name: "Invoice Ninja"
-    github_id: "invoiceninja/invoiceninja"
-    category: "invoicing-fsm"
-    labels: ["self-hosted", "source-available"]
-  - name: "Akaunting"
-    github_id: "akaunting/akaunting"
-    category: "invoicing-fsm"
-    labels: ["self-hosted"]
-  - name: "IDURAR ERP CRM"
-    github_id: "idurar/idurar-erp-crm"
-    category: "invoicing-fsm"
-    labels: ["self-hosted"]
-  - name: "InvoiceShelf"
-    github_id: "InvoiceShelf/InvoiceShelf"
-    category: "invoicing-fsm"
-    labels: ["self-hosted"]
-  - name: "Odoo Field Service (OCA)"
-    github_id: "OCA/field-service"
-    category: "invoicing-fsm"
-    labels: ["self-hosted"]
-
-  # --- Local SEO, Site Audits & Reputation ---
-  - name: "Lighthouse"
-    github_id: "GoogleChrome/lighthouse"
-    npm_id: "lighthouse"
-    category: "local-seo"
-  - name: "Claude SEO"
-    github_id: "AgriciDaniel/claude-seo"
-    category: "local-seo"
-  - name: "Google Maps Scraper"
-    github_id: "gosom/google-maps-scraper"
-    category: "local-seo"
-  - name: "Unlighthouse"
-    github_id: "harlan-zw/unlighthouse"
-    npm_id: "unlighthouse"
-    category: "local-seo"
-  - name: "SerpBear"
-    github_id: "towfiqi/serpbear"
-    category: "local-seo"
-    labels: ["self-hosted"]
-  - name: "SEOnaut"
-    github_id: "StJudeWasHere/seonaut"
-    category: "local-seo"
-    labels: ["self-hosted"]
-
-  # --- Web Analytics & Call Transcription ---
-  - name: "Whisper"
-    github_id: "openai/whisper"
-    pypi_id: "openai-whisper"
-    category: "analytics-calls"
-  - name: "faster-whisper"
-    github_id: "SYSTRAN/faster-whisper"
-    pypi_id: "faster-whisper"
-    category: "analytics-calls"
-  - name: "Umami"
-    github_id: "umami-software/umami"
-    category: "analytics-calls"
-    labels: ["self-hosted"]
-  - name: "Plausible Analytics"
-    github_id: "plausible/analytics"
-    category: "analytics-calls"
-    labels: ["self-hosted"]
-  - name: "Matomo"
-    github_id: "matomo-org/matomo"
-    category: "analytics-calls"
-    labels: ["self-hosted"]
-
-  # --- Email, Social & Content Marketing ---
-  - name: "Postiz"
-    github_id: "gitroomhq/postiz-app"
-    category: "marketing"
-    labels: ["self-hosted"]
-  - name: "listmonk"
-    github_id: "knadh/listmonk"
-    category: "marketing"
-    labels: ["self-hosted"]
-  - name: "Mautic"
-    github_id: "mautic/mautic"
-    category: "marketing"
-    labels: ["self-hosted"]
-  - name: "Mixpost"
-    github_id: "inovector/mixpost"
-    category: "marketing"
-    labels: ["self-hosted"]
+- name: Pipecat
+  github_id: pipecat-ai/pipecat
+  pypi_id: pipecat-ai
+  category: voice-agents
+  labels:
+  - telephony
+  description: Open Source framework for voice agents, multimodal apps, and realtime AI. Maintained by Daily and the community.
+  homepage: https://pipecat.ai
+  show: true
+- name: LiveKit Agents
+  github_id: livekit/agents
+  pypi_id: livekit-agents
+  category: voice-agents
+  labels:
+  - telephony
+  description: A framework for building realtime voice AI agents 🤖🎙️📹
+  homepage: https://docs.livekit.io/agents
+  show: true
+- name: Dograh
+  github_id: dograh-hq/dograh
+  category: voice-agents
+  labels:
+  - telephony
+  - self-hosted
+  description: Open source voice AI platform. Self-hosted alternative to Vapi and Retell. On Prem, BYOK across  Speech to Speech or LLM/STT/TTS, with a visual workflow builder, MCP native and telephony
+    support.
+  homepage: https://app.dograh.com
+  show: true
+- name: Ultravox
+  github_id: fixie-ai/ultravox
+  category: voice-agents
+  description: A fast multimodal LLM for real-time voice
+  homepage: https://ultravox.ai
+  show: true
+- name: Vocode
+  github_id: vocodedev/vocode-core
+  pypi_id: vocode
+  category: voice-agents
+  labels:
+  - telephony
+  description: 🤖 Build voice-based LLM agents. Modular + open source.
+  homepage: https://vocode.dev
+  show: true
+- name: Bolna
+  github_id: bolna-ai/bolna
+  category: voice-agents
+  labels:
+  - telephony
+  description: Conversational voice AI agents
+  homepage: https://www.bolna.ai
+  show: true
+- name: AIReceptionist
+  github_id: kirklandsig/AIReceptionist
+  category: voice-agents
+  labels:
+  - telephony
+  - self-hosted
+  description: Open-source, self-hosted AI phone receptionist powered by OpenAI Realtime API. High-fidelity speech-to-speech voice agent. Drop-in replacement for overpriced AI receptionist SaaS.
+  homepage: https://github.com/kirklandsig/AIReceptionist
+  show: true
+- name: Chatwoot
+  github_id: chatwoot/chatwoot
+  category: chatbots
+  labels:
+  - self-hosted
+  - no-code
+  description: Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬
+  homepage: https://www.chatwoot.com/help-center
+  show: true
+- name: AnythingLLM
+  github_id: Mintplex-Labs/anything-llm
+  category: chatbots
+  labels:
+  - self-hosted
+  - no-code
+  description: Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience
+  homepage: https://anythingllm.com
+  show: true
+- name: Botpress
+  github_id: botpress/botpress
+  category: chatbots
+  labels:
+  - no-code
+  description: The open-source hub to build & deploy GPT/LLM Agents ⚡️
+  homepage: https://botpress.com
+  show: true
+- name: Rasa
+  github_id: RasaHQ/rasa
+  pypi_id: rasa
+  category: chatbots
+  description: '💬   Open source machine learning framework to automate text- and voice-based conversations: NLU, dialogue management, connect to Slack, Facebook, and more - Create chatbots and voice assistants'
+  homepage: https://rasa.com/docs/rasa/
+  show: true
+- name: Typebot
+  github_id: baptisteArno/typebot.io
+  category: chatbots
+  labels:
+  - self-hosted
+  - no-code
+  - source-available
+  description: 💬 Typebot is a powerful chatbot builder that you can self-host.
+  homepage: https://typebot.io
+  show: true
+- name: n8n
+  github_id: n8n-io/n8n
+  npm_id: n8n
+  category: automation
+  labels:
+  - self-hosted
+  - no-code
+  - source-available
+  description: Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.
+  homepage: https://n8n.io
+  show: true
+- name: Dify
+  github_id: langgenius/dify
+  category: automation
+  labels:
+  - self-hosted
+  - no-code
+  - source-available
+  description: Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production
+    without rebuilding the stack.
+  homepage: https://dify.ai
+  show: true
+- name: Activepieces
+  github_id: activepieces/activepieces
+  category: automation
+  labels:
+  - self-hosted
+  - no-code
+  description: AI Agents & MCPs & AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automation / AI Agent with MCPs • AI Workflows & AI Agents • MCPs for AI Agents
+  homepage: https://www.activepieces.com
+  show: true
+- name: Cal.com
+  github_id: calcom/cal.diy
+  category: scheduling-crm
+  labels:
+  - self-hosted
+  description: Scheduling infrastructure for absolutely everyone.
+  homepage: https://cal.diy
+  show: true
+- name: Easy!Appointments
+  github_id: alextselegidis/easyappointments
+  category: scheduling-crm
+  labels:
+  - self-hosted
+  description: ':date: Easy!Appointments - Self Hosted Appointment Scheduler'
+  homepage: https://easyappointments.org
+  show: true
+- name: Twenty CRM
+  github_id: twentyhq/twenty
+  category: scheduling-crm
+  labels:
+  - self-hosted
+  description: The open alternative to Salesforce, designed for AI.
+  homepage: https://twenty.com
+  show: true
+- name: Krayin CRM
+  github_id: krayin/laravel-crm
+  category: scheduling-crm
+  labels:
+  - self-hosted
+  description: Krayin CRM is Free & Open Source CRM Built with Laravel for Customer, Lead, and Sales Management.
+  homepage: https://krayincrm.com
+  show: true
+- name: EspoCRM
+  github_id: espocrm/espocrm
+  category: scheduling-crm
+  labels:
+  - self-hosted
+  description: EspoCRM – Open Source CRM Application
+  homepage: https://www.espocrm.com
+  show: true
+- name: Invoice Ninja
+  github_id: invoiceninja/invoiceninja
+  category: invoicing-fsm
+  labels:
+  - self-hosted
+  - source-available
+  description: A source-available invoice, quote, project and time-tracking app built with Laravel
+  homepage: https://invoiceninja.com
+  show: true
+- name: Akaunting
+  github_id: akaunting/akaunting
+  category: invoicing-fsm
+  labels:
+  - self-hosted
+  description: Online Accounting Software
+  homepage: https://akaunting.com
+  show: true
+- name: IDURAR ERP CRM
+  github_id: idurar/idurar-erp-crm
+  category: invoicing-fsm
+  labels:
+  - self-hosted
+  description: Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React
+  homepage: https://cloud.idurarapp.com
+  show: true
+- name: InvoiceShelf
+  github_id: InvoiceShelf/InvoiceShelf
+  category: invoicing-fsm
+  labels:
+  - self-hosted
+  description: Open Source Invoicing Solution for Individuals & Businesses
+  homepage: https://invoiceshelf.com
+  show: true
+- name: Odoo Field Service (OCA)
+  github_id: OCA/field-service
+  category: invoicing-fsm
+  labels:
+  - self-hosted
+  description: Field Service Management
+  homepage: https://odoo-community.org/psc-teams/field-service-126
+  show: true
+- name: Lighthouse
+  github_id: GoogleChrome/lighthouse
+  npm_id: lighthouse
+  category: local-seo
+  description: Automated auditing, performance metrics, and best practices for the web.
+  homepage: https://developer.chrome.com/docs/lighthouse/overview/
+  show: true
+- name: Claude SEO
+  github_id: AgriciDaniel/claude-seo
+  category: local-seo
+  description: Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks,
+    local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.
+  homepage: https://claude-seo.md
+  show: true
+- name: Google Maps Scraper
+  github_id: gosom/google-maps-scraper
+  category: local-seo
+  description: scrape data  from Google Maps. Extracts data such as the name, address, phone number, website URL, rating,  reviews number, latitude and longitude, reviews,email and more for each place
+  homepage: https://github.com/gosom/google-maps-scraper
+  show: true
+- name: Unlighthouse
+  github_id: harlan-zw/unlighthouse
+  npm_id: unlighthouse
+  category: local-seo
+  description: Run Google Lighthouse on your entire site.
+  homepage: https://unlighthouse.dev
+  show: true
+- name: SerpBear
+  github_id: towfiqi/serpbear
+  category: local-seo
+  labels:
+  - self-hosted
+  description: Search Engine Position Rank Tracking App
+  homepage: https://docs.serpbear.com/
+  show: true
+- name: SEOnaut
+  github_id: StJudeWasHere/seonaut
+  category: local-seo
+  labels:
+  - self-hosted
+  description: Open source SEO audit tool.
+  homepage: https://seonaut.org
+  show: true
+- name: Whisper
+  github_id: openai/whisper
+  pypi_id: openai-whisper
+  category: analytics-calls
+  description: Robust speech recognition via large-scale weak supervision.
+  homepage: https://github.com/openai/whisper
+  show: true
+- name: faster-whisper
+  github_id: SYSTRAN/faster-whisper
+  pypi_id: faster-whisper
+  category: analytics-calls
+  description: Faster Whisper transcription with CTranslate2
+  homepage: https://github.com/SYSTRAN/faster-whisper
+  show: true
+- name: Umami
+  github_id: umami-software/umami
+  category: analytics-calls
+  labels:
+  - self-hosted
+  description: Umami is a privacy-first analytics platform. Traffic, campaigns, behavior, conversions, and revenue in one place — no cookies, no surveillance, self-hosted or in the cloud.
+  homepage: https://umami.is
+  show: true
+- name: Plausible Analytics
+  github_id: plausible/analytics
+  category: analytics-calls
+  labels:
+  - self-hosted
+  description: Open source, privacy-first web analytics. Lightweight, cookie-free Google Analytics alternative. Self-hosted or cloud.
+  homepage: https://plausible.io
+  show: true
+- name: Matomo
+  github_id: matomo-org/matomo
+  category: analytics-calls
+  labels:
+  - self-hosted
+  description: Empowering People Ethically 🚀 — Matomo is hiring! Join us → https://matomo.org/jobs Matomo is the leading open-source alternative to Google Analytics, giving you complete control and built-in
+    privacy. Easily collect, visualise, and analyse data from websites & apps. Star us on GitHub ⭐️  – Pull Requests welcome!
+  homepage: https://matomo.org/
+  show: true
+- name: Postiz
+  github_id: gitroomhq/postiz-app
+  category: marketing
+  labels:
+  - self-hosted
+  description: 📨 The ultimate agentic social media scheduling tool 🤖
+  homepage: https://postiz.com
+  show: true
+- name: listmonk
+  github_id: knadh/listmonk
+  category: marketing
+  labels:
+  - self-hosted
+  description: High performance, self-hosted, newsletter and mailing list manager with a modern dashboard. Single binary app.
+  homepage: https://listmonk.app
+  show: true
+- name: Mautic
+  github_id: mautic/mautic
+  category: marketing
+  labels:
+  - self-hosted
+  description: 'Mautic: Open Source Marketing Automation Software.'
+  homepage: https://www.mautic.org
+  show: true
+- name: Mixpost
+  github_id: inovector/mixpost
+  category: marketing
+  labels:
+  - self-hosted
+  description: 📅 Schedule, 📢 publish, and ⚡ manage your social media content on your server. No subscriptions, no limits. (Buffer alternative)
+  homepage: https://mixpost.app
+  show: true
