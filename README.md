@@ -56,7 +56,7 @@ _Answer calls, qualify leads, and book jobs 24/7 with voice AI._
 
 <details><summary><b><a href="https://pipecat.ai">Pipecat</a></b> (🥇36 ·  ⭐ 16K) - Open Source framework for voice agents, multimodal apps, and realtime AI... <code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code> <code>📞 phone</code></summary>
 
-- [GitHub](https://github.com/pipecat-ai/pipecat) (👨‍💻 360 · 🔀 2.8K · 📋 1.4K - 8% open · ⏱️ 12.10.2026):
+- [GitHub](https://github.com/pipecat-ai/pipecat) (👨‍💻 360 · 🔀 2.8K · 📋 1.4K - 8% open · ⏱️ 13.10.2026):
 
 	```
 	git clone https://github.com/pipecat-ai/pipecat
@@ -68,7 +68,7 @@ _Answer calls, qualify leads, and book jobs 24/7 with voice AI._
 </details>
 <details><summary><b><a href="https://docs.livekit.io/agents">LiveKit Agents</a></b> (🥈34 ·  ⭐ 15K) - A framework for building realtime voice AI agents. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code>📞 phone</code></summary>
 
-- [GitHub](https://github.com/livekit/agents) (👨‍💻 540 · 🔀 3.1K · 📥 830 · 📋 2.2K - 9% open · ⏱️ 12.10.2026):
+- [GitHub](https://github.com/livekit/agents) (👨‍💻 540 · 🔀 3.1K · 📥 830 · 📋 2.2K - 9% open · ⏱️ 13.10.2026):
 
 	```
 	git clone https://github.com/livekit/agents
@@ -184,7 +184,7 @@ _Glue tools together: missed-call text-back, review requests, lead routing._
 
 <details><summary><b><a href="https://n8n.io">n8n</a></b> (🥇42 ·  ⭐ 210K) - Fair-code workflow automation platform with native AI capabilities. Combine.. <code>❗Unlicensed</code> <code>self-hosted</code> <code>no-code</code> <code>🔒 source-available</code></summary>
 
-- [GitHub](https://github.com/n8n-io/n8n) (👨‍💻 810 · 🔀 61K · 📥 7.2K · 📦 1.2K · 📋 10K - 3% open · ⏱️ 12.10.2026):
+- [GitHub](https://github.com/n8n-io/n8n) (👨‍💻 810 · 🔀 61K · 📥 7.2K · 📦 1.2K · 📋 10K - 3% open · ⏱️ 13.10.2026):
 
 	```
 	git clone https://github.com/n8n-io/n8n
@@ -196,7 +196,7 @@ _Glue tools together: missed-call text-back, review requests, lead routing._
 </details>
 <details><summary><b><a href="https://dify.ai">Dify</a></b> (🥉38 ·  ⭐ 160K) - Build Agentic workflows, RAG pipelines, with rich AI model and tool support on.. <code>❗Unlicensed</code> <code>self-hosted</code> <code>no-code</code> <code>🔒 source-available</code></summary>
 
-- [GitHub](https://github.com/langgenius/dify) (👨‍💻 1.5K · 🔀 25K · 📥 20K · 📦 720 · 📋 19K - 2% open · ⏱️ 12.10.2026):
+- [GitHub](https://github.com/langgenius/dify) (👨‍💻 1.5K · 🔀 25K · 📥 20K · 📦 720 · 📋 19K - 2% open · ⏱️ 13.10.2026):
 
 	```
 	git clone https://github.com/langgenius/dify
@@ -316,7 +316,7 @@ _Rank tracking, technical audits, and Google Maps/review research._
 
 <details><summary><b><a href="https://developer.chrome.com/docs/lighthouse/overview/">Lighthouse</a></b> (🥇42 ·  ⭐ 31K) - Automated auditing, performance metrics, and best practices for the web. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/GoogleChrome/lighthouse) (👨‍💻 390 · 🔀 9.7K · 📥 23 · 📦 39K · 📋 9.3K - 4% open · ⏱️ 12.10.2026):
+- [GitHub](https://github.com/GoogleChrome/lighthouse) (👨‍💻 390 · 🔀 9.7K · 📥 24 · 📦 39K · 📋 9.3K - 4% open · ⏱️ 12.10.2026):
 
 	```
 	git clone https://github.com/GoogleChrome/lighthouse
@@ -326,9 +326,9 @@ _Rank tracking, technical audits, and Google Maps/review research._
 	npm install lighthouse
 	```
 </details>
-<details><summary><b><a href="https://unlighthouse.dev">Unlighthouse</a></b> (🥈26 ·  ⭐ 4.9K) - Run Google Lighthouse on your entire site. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://unlighthouse.dev">Unlighthouse</a></b> (🥈30 ·  ⭐ 4.9K · 📈) - Run Google Lighthouse on your entire site. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
-- [GitHub](https://github.com/harlan-zw/unlighthouse) (👨‍💻 30 · 🔀 180 · 📋 230 - 10% open · ⏱️ 11.10.2026):
+- [GitHub](https://github.com/harlan-zw/unlighthouse) (👨‍💻 30 · 🔀 180 · 📦 370 · 📋 230 - 10% open · ⏱️ 11.10.2026):
 
 	```
 	git clone https://github.com/harlan-zw/unlighthouse
@@ -392,7 +392,7 @@ _Measure traffic and conversions, and turn recorded calls into text and insights
 </details>
 <details><summary><b><a href="https://matomo.org/">Matomo</a></b> (🥈33 ·  ⭐ 22K) - Empowering People Ethically Matomo is hiring! Join us https://matomo.org/jobs.. <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code> <code>self-hosted</code></summary>
 
-- [GitHub](https://github.com/matomo-org/matomo) (👨‍💻 450 · 🔀 2.8K · 📥 11K · 📦 8 · 📋 15K - 16% open · ⏱️ 12.10.2026):
+- [GitHub](https://github.com/matomo-org/matomo) (👨‍💻 450 · 🔀 2.8K · 📥 11K · 📦 8 · 📋 15K - 16% open · ⏱️ 13.10.2026):
 
 	```
 	git clone https://github.com/matomo-org/matomo
@@ -452,7 +452,7 @@ _Newsletters, social scheduling, and marketing automation._
 </details>
 <details><summary><b><a href="https://postiz.com">Postiz</a></b> (🥉25 ·  ⭐ 37K) - The ultimate agentic social media scheduling tool. <code><a href="http://bit.ly/3pwmjO5">❗️AGPL-3.0</a></code> <code>self-hosted</code></summary>
 
-- [GitHub](https://github.com/gitroomhq/postiz-app) (👨‍💻 75 · 🔀 7.1K · 📋 840 - 16% open · ⏱️ 12.10.2026):
+- [GitHub](https://github.com/gitroomhq/postiz-app) (👨‍💻 75 · 🔀 7.2K · 📋 840 - 16% open · ⏱️ 12.10.2026):
 
 	```
 	git clone https://github.com/gitroomhq/postiz-app
