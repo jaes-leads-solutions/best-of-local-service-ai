@@ -348,7 +348,7 @@ _Rank tracking, technical audits, and Google Maps/review research._
 </details>
 <details><summary><b><a href="https://github.com/gosom/google-maps-scraper">Google Maps Scraper</a></b> (🥉22 ·  ⭐ 6.5K) - scrape data from Google Maps. Extracts data such as the name, address, phone.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
-- [GitHub](https://github.com/gosom/google-maps-scraper) (👨‍💻 27 · 🔀 1K · 📥 28K · 📋 170 - 32% open · ⏱️ 24.09.2026):
+- [GitHub](https://github.com/gosom/google-maps-scraper) (👨‍💻 27 · 🔀 1K · 📥 28K · 📋 170 - 33% open · ⏱️ 24.09.2026):
 
 	```
 	git clone https://github.com/gosom/google-maps-scraper
@@ -380,7 +380,7 @@ _Measure traffic and conversions, and turn recorded calls into text and insights
 
 <details><summary><b><a href="https://github.com/SYSTRAN/faster-whisper">faster-whisper</a></b> (🥇34 ·  ⭐ 26K) - Faster Whisper transcription with CTranslate2. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
-- [GitHub](https://github.com/SYSTRAN/faster-whisper) (👨‍💻 51 · 🔀 2.1K · 📦 14K · 📋 930 - 0% open · ⏱️ 10.10.2026):
+- [GitHub](https://github.com/SYSTRAN/faster-whisper) (👨‍💻 51 · 🔀 2.1K · 📦 14K · 📋 930 - 0% open · ⏱️ 15.10.2026):
 
 	```
 	git clone https://github.com/SYSTRAN/faster-whisper
