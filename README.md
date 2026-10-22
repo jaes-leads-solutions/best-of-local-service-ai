@@ -182,7 +182,7 @@ _Chat widgets, shared inboxes, and lead-capture bots for your website, SMS, and 
 
 _Glue tools together: missed-call text-back, review requests, lead routing._
 
-<details><summary><b><a href="https://n8n.io">n8n</a></b> (🥇43 ·  ⭐ 210K · 📈) - Fair-code workflow automation platform with native AI capabilities. Combine.. <code>❗Unlicensed</code> <code>self-hosted</code> <code>no-code</code> <code>🔒 source-available</code></summary>
+<details><summary><b><a href="https://n8n.io">n8n</a></b> (🥇43 ·  ⭐ 210K) - Fair-code workflow automation platform with native AI capabilities. Combine.. <code>❗Unlicensed</code> <code>self-hosted</code> <code>no-code</code> <code>🔒 source-available</code></summary>
 
 - [GitHub](https://github.com/n8n-io/n8n) (👨‍💻 840 · 🔀 61K · 📥 7.7K · 📦 1.2K · 📋 11K - 3% open · ⏱️ 22.10.2026):
 
@@ -218,7 +218,7 @@ _Glue tools together: missed-call text-back, review requests, lead routing._
 
 _Online booking and customer/lead management._
 
-<details><summary><b><a href="https://cal.diy">Cal.com</a></b> (🥇34 ·  ⭐ 49K · 📈) - Scheduling infrastructure for absolutely everyone. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>self-hosted</code></summary>
+<details><summary><b><a href="https://cal.diy">Cal.com</a></b> (🥇34 ·  ⭐ 49K) - Scheduling infrastructure for absolutely everyone. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>self-hosted</code></summary>
 
 - [GitHub](https://github.com/calcom/cal.diy) (👨‍💻 980 · 🔀 15K · 📦 3.8K · 📋 9.5K - 12% open · ⏱️ 19.10.2026):
 
@@ -228,13 +228,13 @@ _Online booking and customer/lead management._
 </details>
 <details><summary><b><a href="https://twenty.com">Twenty CRM</a></b> (🥈29 ·  ⭐ 60K) - The open alternative to Salesforce, designed for AI. <code>❗Unlicensed</code> <code>self-hosted</code></summary>
 
-- [GitHub](https://github.com/twentyhq/twenty) (👨‍💻 780 · 🔀 9.6K · 📦 3 · 📋 7.1K - 0% open · ⏱️ 22.10.2026):
+- [GitHub](https://github.com/twentyhq/twenty) (👨‍💻 780 · 🔀 9.6K · 📦 3 · 📋 7.1K - 1% open · ⏱️ 22.10.2026):
 
 	```
 	git clone https://github.com/twentyhq/twenty
 	```
 </details>
-<details><summary><b><a href="https://easyappointments.org">Easy!Appointments</a></b> (🥉27 ·  ⭐ 4.5K · 📈) - Easy!Appointments - Self Hosted Appointment Scheduler. <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code> <code>self-hosted</code></summary>
+<details><summary><b><a href="https://easyappointments.org">Easy!Appointments</a></b> (🥉27 ·  ⭐ 4.5K) - Easy!Appointments - Self Hosted Appointment Scheduler. <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code> <code>self-hosted</code></summary>
 
 - [GitHub](https://github.com/alextselegidis/easyappointments) (👨‍💻 120 · 🔀 1.5K · 📥 220K · 📋 1.4K - 10% open · ⏱️ 19.10.2026):
 
@@ -274,7 +274,7 @@ _Quotes, invoices, payments, and job dispatch._
 	git clone https://github.com/invoiceninja/invoiceninja
 	```
 </details>
-<details><summary><b><a href="https://akaunting.com">Akaunting</a></b> (🥈28 ·  ⭐ 10K · 📉) - Online Accounting Software. <code>❗Unlicensed</code> <code>self-hosted</code></summary>
+<details><summary><b><a href="https://akaunting.com">Akaunting</a></b> (🥈28 ·  ⭐ 10K) - Online Accounting Software. <code>❗Unlicensed</code> <code>self-hosted</code></summary>
 
 - [GitHub](https://github.com/akaunting/akaunting) (👨‍💻 140 · 🔀 3K · 📥 380K · 📋 1.3K - 0% open · ⏱️ 08.10.2026):
 
@@ -284,7 +284,7 @@ _Quotes, invoices, payments, and job dispatch._
 </details>
 <details><summary><b><a href="https://invoiceshelf.com">InvoiceShelf</a></b> (🥉24 ·  ⭐ 1.9K) - Open Source Invoicing Solution for Individuals & Businesses. <code><a href="http://bit.ly/3pwmjO5">❗️AGPL-3.0</a></code> <code>self-hosted</code></summary>
 
-- [GitHub](https://github.com/InvoiceShelf/InvoiceShelf) (👨‍💻 140 · 🔀 390 · 📥 4.4K · 📋 340 - 15% open · ⏱️ 21.10.2026):
+- [GitHub](https://github.com/InvoiceShelf/InvoiceShelf) (👨‍💻 140 · 🔀 390 · 📥 4.5K · 📋 340 - 15% open · ⏱️ 21.10.2026):
 
 	```
 	git clone https://github.com/InvoiceShelf/InvoiceShelf
@@ -378,7 +378,7 @@ _Rank tracking, technical audits, and Google Maps/review research._
 
 _Measure traffic and conversions, and turn recorded calls into text and insights._
 
-<details><summary><b><a href="https://github.com/SYSTRAN/faster-whisper">faster-whisper</a></b> (🥇35 ·  ⭐ 26K · 📈) - Faster Whisper transcription with CTranslate2. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/SYSTRAN/faster-whisper">faster-whisper</a></b> (🥇35 ·  ⭐ 26K) - Faster Whisper transcription with CTranslate2. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/SYSTRAN/faster-whisper) (👨‍💻 52 · 🔀 2.1K · 📦 14K · 📋 930 - 0% open · ⏱️ 16.10.2026):
 
@@ -442,7 +442,7 @@ _Newsletters, social scheduling, and marketing automation._
 	git clone https://github.com/mautic/mautic
 	```
 </details>
-<details><summary><b><a href="https://listmonk.app">listmonk</a></b> (🥈32 ·  ⭐ 24K · 📈) - High performance, self-hosted, newsletter and mailing list manager with a.. <code><a href="http://bit.ly/3pwmjO5">❗️AGPL-3.0</a></code> <code>self-hosted</code></summary>
+<details><summary><b><a href="https://listmonk.app">listmonk</a></b> (🥈32 ·  ⭐ 24K) - High performance, self-hosted, newsletter and mailing list manager with a.. <code><a href="http://bit.ly/3pwmjO5">❗️AGPL-3.0</a></code> <code>self-hosted</code></summary>
 
 - [GitHub](https://github.com/knadh/listmonk) (👨‍💻 290 · 🔀 2.7K · 📥 150K · 📦 32 · 📋 2.3K - 2% open · ⏱️ 22.10.2026):
 
