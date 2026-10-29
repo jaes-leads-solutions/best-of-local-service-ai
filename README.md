@@ -114,7 +114,7 @@ _Answer calls, qualify leads, and book jobs 24/7 with voice AI._
 	git clone https://github.com/fixie-ai/ultravox
 	```
 </details>
-<details><summary><b><a href="https://github.com/kirklandsig/AIReceptionist">AIReceptionist</a></b> (🥉12 ·  ⭐ 150 · 📈) - Open-source, self-hosted AI phone receptionist powered by OpenAI Realtime API... <code><a href="http://bit.ly/3pwmjO5">❗️AGPL-3.0</a></code> <code>📞 phone</code> <code>self-hosted</code></summary>
+<details><summary><b><a href="https://github.com/kirklandsig/AIReceptionist">AIReceptionist</a></b> (🥉12 ·  ⭐ 150) - Open-source, self-hosted AI phone receptionist powered by OpenAI Realtime API... <code><a href="http://bit.ly/3pwmjO5">❗️AGPL-3.0</a></code> <code>📞 phone</code> <code>self-hosted</code></summary>
 
 - [GitHub](https://github.com/kirklandsig/AIReceptionist) (👨‍💻 2 · 🔀 56 · 📋 18 - 5% open · ⏱️ 16.09.2026):
 
@@ -184,7 +184,7 @@ _Glue tools together: missed-call text-back, review requests, lead routing._
 
 <details><summary><b><a href="https://n8n.io">n8n</a></b> (🥇43 ·  ⭐ 210K) - Fair-code workflow automation platform with native AI capabilities. Combine.. <code>❗Unlicensed</code> <code>self-hosted</code> <code>no-code</code> <code>🔒 source-available</code></summary>
 
-- [GitHub](https://github.com/n8n-io/n8n) (👨‍💻 840 · 🔀 61K · 📥 7.1K · 📦 1.2K · 📋 11K - 3% open · ⏱️ 29.10.2026):
+- [GitHub](https://github.com/n8n-io/n8n) (👨‍💻 840 · 🔀 61K · 📥 7.2K · 📦 1.2K · 📋 11K - 3% open · ⏱️ 29.10.2026):
 
 	```
 	git clone https://github.com/n8n-io/n8n
@@ -226,7 +226,7 @@ _Online booking and customer/lead management._
 	git clone https://github.com/calcom/cal.diy
 	```
 </details>
-<details><summary><b><a href="https://twenty.com">Twenty CRM</a></b> (🥈30 ·  ⭐ 60K · 📈) - The open alternative to Salesforce, designed for AI. <code>❗Unlicensed</code> <code>self-hosted</code></summary>
+<details><summary><b><a href="https://twenty.com">Twenty CRM</a></b> (🥈30 ·  ⭐ 60K) - The open alternative to Salesforce, designed for AI. <code>❗Unlicensed</code> <code>self-hosted</code></summary>
 
 - [GitHub](https://github.com/twentyhq/twenty) (👨‍💻 790 · 🔀 9.8K · 📦 3 · 📋 7.2K - 0% open · ⏱️ 29.10.2026):
 
@@ -250,7 +250,7 @@ _Online booking and customer/lead management._
 	git clone https://github.com/espocrm/espocrm
 	```
 </details>
-<details><summary><b><a href="https://krayincrm.com">Krayin CRM</a></b> (🥉25 ·  ⭐ 24K · 📉) - Krayin CRM is Free & Open Source CRM Built with Laravel for Customer, Lead,.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>self-hosted</code></summary>
+<details><summary><b><a href="https://krayincrm.com">Krayin CRM</a></b> (🥉25 ·  ⭐ 24K) - Krayin CRM is Free & Open Source CRM Built with Laravel for Customer, Lead,.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>self-hosted</code></summary>
 
 - [GitHub](https://github.com/krayin/laravel-crm) (👨‍💻 67 · 🔀 1.7K · 📋 1.1K - 7% open · ⏱️ 21.10.2026):
 
@@ -282,7 +282,7 @@ _Quotes, invoices, payments, and job dispatch._
 	git clone https://github.com/akaunting/akaunting
 	```
 </details>
-<details><summary><b><a href="https://invoiceshelf.com">InvoiceShelf</a></b> (🥉25 ·  ⭐ 1.9K · 📈) - Open Source Invoicing Solution for Individuals & Businesses. <code><a href="http://bit.ly/3pwmjO5">❗️AGPL-3.0</a></code> <code>self-hosted</code></summary>
+<details><summary><b><a href="https://invoiceshelf.com">InvoiceShelf</a></b> (🥉25 ·  ⭐ 1.9K) - Open Source Invoicing Solution for Individuals & Businesses. <code><a href="http://bit.ly/3pwmjO5">❗️AGPL-3.0</a></code> <code>self-hosted</code></summary>
 
 - [GitHub](https://github.com/InvoiceShelf/InvoiceShelf) (👨‍💻 140 · 🔀 390 · 📥 4.8K · 📋 350 - 17% open · ⏱️ 27.10.2026):
 
@@ -298,7 +298,7 @@ _Quotes, invoices, payments, and job dispatch._
 	git clone https://github.com/idurar/idurar-erp-crm
 	```
 </details>
-<details><summary><b><a href="https://odoo-community.org/psc-teams/field-service-126">Odoo Field Service (OCA)</a></b> (🥉18 ·  ⭐ 200 · 📉) - Field Service Management. <code><a href="http://bit.ly/3pwmjO5">❗️AGPL-3.0</a></code> <code>self-hosted</code></summary>
+<details><summary><b><a href="https://odoo-community.org/psc-teams/field-service-126">Odoo Field Service (OCA)</a></b> (🥉18 ·  ⭐ 200) - Field Service Management. <code><a href="http://bit.ly/3pwmjO5">❗️AGPL-3.0</a></code> <code>self-hosted</code></summary>
 
 - [GitHub](https://github.com/OCA/field-service) (👨‍💻 120 · 🔀 310 · 📋 280 - 5% open · ⏱️ 24.10.2026):
 
@@ -314,9 +314,9 @@ _Quotes, invoices, payments, and job dispatch._
 
 _Rank tracking, technical audits, and Google Maps/review research._
 
-<details><summary><b><a href="https://developer.chrome.com/docs/lighthouse/overview/">Lighthouse</a></b> (🥇43 ·  ⭐ 31K · 📈) - Automated auditing, performance metrics, and best practices for the web. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://developer.chrome.com/docs/lighthouse/overview/">Lighthouse</a></b> (🥇43 ·  ⭐ 31K) - Automated auditing, performance metrics, and best practices for the web. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/GoogleChrome/lighthouse) (👨‍💻 400 · 🔀 9.7K · 📥 210 · 📦 39K · 📋 9.3K - 4% open · ⏱️ 28.10.2026):
+- [GitHub](https://github.com/GoogleChrome/lighthouse) (👨‍💻 400 · 🔀 9.7K · 📥 210 · 📦 39K · 📋 9.3K - 4% open · ⏱️ 29.10.2026):
 
 	```
 	git clone https://github.com/GoogleChrome/lighthouse
@@ -354,7 +354,7 @@ _Rank tracking, technical audits, and Google Maps/review research._
 	git clone https://github.com/gosom/google-maps-scraper
 	```
 </details>
-<details><summary><b><a href="https://docs.serpbear.com/">SerpBear</a></b> (🥉19 ·  ⭐ 2.2K · 📈) - Search Engine Position Rank Tracking App. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>self-hosted</code></summary>
+<details><summary><b><a href="https://docs.serpbear.com/">SerpBear</a></b> (🥉19 ·  ⭐ 2.2K) - Search Engine Position Rank Tracking App. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>self-hosted</code></summary>
 
 - [GitHub](https://github.com/towfiqi/serpbear) (👨‍💻 18 · 🔀 310 · 📋 230 - 25% open · ⏱️ 29.10.2026):
 
@@ -398,7 +398,7 @@ _Measure traffic and conversions, and turn recorded calls into text and insights
 	git clone https://github.com/matomo-org/matomo
 	```
 </details>
-<details><summary><b><a href="https://umami.is">Umami</a></b> (🥉30 ·  ⭐ 40K · 📉) - Umami is a privacy-first analytics platform. Traffic, campaigns, behavior,.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>self-hosted</code></summary>
+<details><summary><b><a href="https://umami.is">Umami</a></b> (🥉30 ·  ⭐ 40K) - Umami is a privacy-first analytics platform. Traffic, campaigns, behavior,.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code>self-hosted</code></summary>
 
 - [GitHub](https://github.com/umami-software/umami) (👨‍💻 440 · 🔀 8.4K · 📦 12 · 📋 2.3K - 3% open · ⏱️ 23.10.2026):
 
@@ -406,7 +406,7 @@ _Measure traffic and conversions, and turn recorded calls into text and insights
 	git clone https://github.com/umami-software/umami
 	```
 </details>
-<details><summary><b><a href="https://github.com/openai/whisper">Whisper</a></b> (🥉28 ·  ⭐ 110K · 📉) - Robust speech recognition via large-scale weak supervision. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/openai/whisper">Whisper</a></b> (🥉28 ·  ⭐ 110K) - Robust speech recognition via large-scale weak supervision. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/openai/whisper) (👨‍💻 84 · 🔀 13K · 📦 24 · ⏱️ 31.08.2026):
 
